@@ -4,7 +4,7 @@ Hand-made circle icons for a small selection of Android apps.
 
 ## the icons
 
-<img src="png/port_authority.png" width=256 title="Port Authority" /><img src="png/privacy.com.png" width=256 title="Privacy.com" /><img src="png/taco_bell.png" width=256 title="Taco Bell" />
+<img src="png/nintendo_switch_online.png" width=209 title="Nintendo Switch Online" /><img src="png/port_authority.png" width=209 title="Port Authority" /><img src="png/privacy.com.png" width=209 title="Privacy.com" /><img src="png/taco_bell.png" width=209 title="Taco Bell" />
 
 ## why?
 
