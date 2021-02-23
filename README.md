@@ -1,6 +1,6 @@
 # app icons
 
-Hand-made circle icons for a small selection of Android apps.
+Hand-made icons for a small selection of Android apps.
 
 ## the icons
 
