@@ -13,7 +13,7 @@
    version="1.1"
    id="svg8"
    inkscape:version="1.0.1 (0767f8302a, 2020-10-17)"
-   sodipodi:docname="f-droid.svg"
+   sodipodi:docname="org.fdroid.fdroid.svg"
    inkscape:export-filename="/home/reese/Pictures/icons/png/f-droid.png"
    inkscape:export-xdpi="28.659931"
    inkscape:export-ydpi="28.659931">
@@ -149,8 +149,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.23748788"
-     inkscape:cx="1112.852"
-     inkscape:cy="1616.9617"
+     inkscape:cx="1480.7928"
+     inkscape:cy="1708.8786"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -202,7 +202,7 @@
        inkscape:label="plate" />
     <path
        id="rect4146"
-       style="display:inline;opacity:0.722956;fill:#000000;fill-opacity:1;stroke:none;stroke-width:33.8442;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:3;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;filter:url(#filter4139)"
+       style="display:inline;opacity:0.722956;fill-opacity:1;stroke:none;stroke-width:33.844;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;filter:url(#filter4139);fill:#f2f2f2"
        inkscape:label="shadow"
        d="m -237.21704,-279.86822 a 14.101725,14.101725 0 0 0 -8.60723,2.95331 14.101725,14.101725 0 0 0 -2.53421,19.78639 l 40.65282,52.61693 c -1.43263,3.75803 -2.29134,7.80158 -2.29134,12.07473 v 78.96934 c 0,18.749648 15.09428,33.844444 33.84392,33.844444 h 361.00433 c 18.74964,0 33.84393,-15.094796 33.84393,-33.844444 v -78.96934 c 0,-4.27315 -0.85873,-8.3167 -2.29134,-12.07473 l 40.6523,-52.61693 a 14.101725,14.101725 0 0 0 -2.5337,-19.78639 14.101725,14.101725 0 0 0 -8.90177,-2.93057 14.101725,14.101725 0 0 0 -10.88462,5.46426 l -38.73561,50.10496 c -3.5053,-1.2224 -7.2168,-2.00506 -11.14919,-2.00506 h -361.00433 c -3.93239,0 -7.64389,0.78266 -11.14918,2.00506 l -38.73562,-50.10496 a 14.101725,14.101725 0 0 0 -11.0169,-5.48648 14.101725,14.101725 0 0 0 -0.16226,-5.3e-4 z m 132.69887,89.6555 a 38.074658,38.074658 0 0 1 0.28371,0 38.074658,38.074658 0 0 1 38.07468,38.07468 38.074658,38.074658 0 0 1 -38.07468,38.07468 38.074658,38.074658 0 0 1 -38.07417,-38.07468 38.074658,38.074658 0 0 1 37.52328,-38.07468 38.074658,38.074658 0 0 1 0.26665,0 z m 219.98709,0 a 38.074658,38.074658 0 0 1 0.28369,0 38.074658,38.074658 0 0 1 38.07468,38.07468 38.074658,38.074658 0 0 1 -38.07468,38.07468 38.074658,38.074658 0 0 1 -38.074679,-38.07468 38.074658,38.074658 0 0 1 37.523819,-38.07468 38.074658,38.074658 0 0 1 0.26717,0 z m -291.622,121.871107 c -18.74964,0 -33.84392,15.094294 -33.84392,33.843938 V 191.12989 c 0,18.74967 15.09428,33.84444 33.84392,33.84444 h 361.00433 c 18.74964,0 33.84393,-15.09477 33.84393,-33.84444 V -34.497675 c 0,-18.749644 -15.09429,-33.843938 -33.84393,-33.843938 z"
        clip-path="url(#clipPath4143)"
