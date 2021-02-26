@@ -4,7 +4,7 @@ Hand-made icons for a small selection of Android apps.
 
 ## the icons
 
-<img src="png/cvs_pharmacy.png" width=209 title="CVS Pharmacy" /><img src="png/f-droid.png" width=209 title="F-Droid" /><img src="png/fly_delta.png" width=209 title="Fly Delta" /><img src="png/kde_connect.png" width=209 title="KDE Connect" /><img src="png/nintendo_switch_online.png" width=209 title="Nintendo Switch Online" /><img src="png/port_authority.png" width=209 title="Port Authority" /><img src="png/privacy.com.png" width=209 title="Privacy.com" /><img src="png/taco_bell.png" width=209 title="Taco Bell" />
+<img src="png/com.cvs.launchers.cvs.png" width=209 title="CVS Pharmacy" /><img src="png/org.fdroid.fdroid.png" width=209 title="F-Droid" /><img src="png/com.delta.mobile.android.png" width=209 title="Fly Delta" /><img src="png/org.kde.kdeconnect_tp.png" width=209 title="KDE Connect" /><img src="png/com.nintendo.znca.png" width=209 title="Nintendo Switch Online" /><img src="png/com.aaronjwood.portauthority.png" width=209 title="Port Authority" /><img src="png/com.privacy.pay.png" width=209 title="Privacy.com" /><img src="png/com.tacobell.ordering.png" width=209 title="Taco Bell" />
 
 ## why?
 
