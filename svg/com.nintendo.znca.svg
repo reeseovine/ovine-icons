@@ -7,83 +7,18 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="907.52484mm"
-   height="907.52484mm"
-   viewBox="0 0 907.52483 907.52485"
+   width="512"
+   height="512"
+   viewBox="0 0 135.46667 135.46667"
    version="1.1"
    id="svg8"
-   inkscape:version="1.0.1 (0767f8302a, 2020-10-17)"
-   sodipodi:docname="nintendo_switch_online.svg"
+   inkscape:version="1.0.2 (394de47547, 2021-03-26)"
+   sodipodi:docname="com.nintendo.znca.svg"
    inkscape:export-filename="/home/reese/Pictures/icons/png/nintendo_switch_online.png"
    inkscape:export-xdpi="28.659931"
    inkscape:export-ydpi="28.659931">
   <defs
-     id="defs2">
-    <filter
-       style="color-interpolation-filters:sRGB"
-       inkscape:label="Drop Shadow"
-       id="filter4754">
-      <feFlood
-         flood-opacity="0.2"
-         flood-color="rgb(0,0,0)"
-         result="flood"
-         id="feFlood4744" />
-      <feComposite
-         in="flood"
-         in2="SourceGraphic"
-         operator="in"
-         result="composite1"
-         id="feComposite4746" />
-      <feGaussianBlur
-         in="composite1"
-         stdDeviation="20"
-         result="blur"
-         id="feGaussianBlur4748" />
-      <feOffset
-         dx="0"
-         dy="10"
-         result="offset"
-         id="feOffset4750" />
-      <feComposite
-         in="SourceGraphic"
-         in2="offset"
-         operator="over"
-         result="composite2"
-         id="feComposite4752" />
-    </filter>
-    <filter
-       style="color-interpolation-filters:sRGB;"
-       inkscape:label="Drop Shadow"
-       id="filter1405">
-      <feFlood
-         flood-opacity="0.0784314"
-         flood-color="rgb(0,0,0)"
-         result="flood"
-         id="feFlood1395" />
-      <feComposite
-         in="flood"
-         in2="SourceGraphic"
-         operator="in"
-         result="composite1"
-         id="feComposite1397" />
-      <feGaussianBlur
-         in="composite1"
-         stdDeviation="20"
-         result="blur"
-         id="feGaussianBlur1399" />
-      <feOffset
-         dx="0"
-         dy="10"
-         result="offset"
-         id="feOffset1401" />
-      <feComposite
-         in="SourceGraphic"
-         in2="offset"
-         operator="over"
-         result="composite2"
-         id="feComposite1403" />
-    </filter>
-  </defs>
+     id="defs2" />
   <sodipodi:namedview
      id="base"
      pagecolor="#ffffff"
@@ -91,9 +26,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.23748788"
-     inkscape:cx="1837.7565"
-     inkscape:cy="1768.4136"
+     inkscape:zoom="1.0437173"
+     inkscape:cx="243.86417"
+     inkscape:cy="286.53039"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -102,9 +37,9 @@
      fit-margin-right="0"
      fit-margin-bottom="0"
      inkscape:window-width="1892"
-     inkscape:window-height="1022"
+     inkscape:window-height="1000"
      inkscape:window-x="14"
-     inkscape:window-y="44"
+     inkscape:window-y="66"
      inkscape:window-maximized="1"
      inkscape:snap-global="true"
      inkscape:snap-bbox="true"
@@ -116,7 +51,8 @@
      inkscape:snap-text-baseline="true"
      inkscape:snap-page="true"
      inkscape:snap-to-guides="true"
-     inkscape:document-rotation="0" />
+     inkscape:document-rotation="0"
+     units="px" />
   <metadata
      id="metadata5">
     <rdf:RDF>
@@ -125,7 +61,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -134,18 +70,18 @@
      inkscape:groupmode="layer"
      id="layer1"
      transform="translate(449.41339,493.41072)">
-    <circle
-       style="fill:#e1131f;fill-opacity:1;stroke:none;stroke-width:0.264583;filter:url(#filter4754)"
-       id="path4586"
-       cx="4.3490262"
-       cy="-39.648304"
-       r="378.13535"
-       transform="matrix(1.03,0,0,1.03,-0.13047101,1.1894489)"
-       clip-path="none" />
+    <rect
+       style="fill:#e1131f;fill-opacity:1;stroke-width:0.0264583;stroke-linecap:round;stroke-linejoin:round"
+       id="rect8513"
+       width="135.43739"
+       height="135.43739"
+       x="-449.39142"
+       y="-493.38876"
+       ry="0.79374999" />
     <path
        id="path1106"
-       style="display:inline;fill:#ffffff;fill-opacity:1;stroke-width:1.36942"
-       d="m 99.137845,-266.20786 c -16.291803,-0.0193 -32.545247,0.0578 -48.875567,0.0578 -9.038148,0 -9.03779,1.4e-4 -9.03779,8.76443 V -40.333273 179.45851 c 0,6.98404 0.410668,7.39471 7.257749,7.39471 21.362936,0 42.72566,0.13695 64.088603,-0.137 7.66873,-0.13691 15.47469,-0.54762 23.00651,-2.05398 56.42001,-11.36618 94.35285,-57.78925 94.35285,-115.304791 0.13694,-72.7160554 0,-145.432045 0,-218.148119 0,-5.47767 -0.27413,-11.09236 -0.95881,-16.57004 -7.12096,-56.96777 -56.14614,-100.51544 -113.52475,-100.78932 -5.44341,-0.0342 -10.8782,-0.0513 -16.308795,-0.0578 z m 31.783085,203.827414 c 25.19726,0 45.19116,19.993398 45.19116,45.464579 -0.13694,25.3342119 -20.26784,45.464585 -45.46511,45.464585 -25.19726,-0.136956 -45.190625,-20.4043418 -45.05368,-45.8755 0.136967,-25.060355 20.26728,-45.053664 45.32763,-45.053664 z m -281.826,-67.786404 c 0,-23.69093 19.03491,-42.99972 42.45194,-42.99972 23.553984,0 42.725832,19.44573 42.588897,42.99972 -0.136945,23.55398 -19.034913,42.451957 -42.314997,42.725813 -23.41705,0.273891 -42.72584,-19.034893 -42.72584,-42.725813 z m 80.787685,-136.13001 c -11.783952,0.008 -23.563062,0.0784 -35.322935,0.28376 -44.09526,0.82165 -77.50912,20.67799 -100.24144,58.33697 -11.50311,19.03491 -15.61124,40.12399 -15.61124,62.30856 V 62.510021 c 0,5.340739 0.274,10.818356 0.54789,16.159129 3.69743,59.70661 52.72242,106.95154 112.70292,108.04704 31.907426,0.54781 63.951528,0.137 95.858954,0.137 8.9011905,0 8.9013694,0 8.9013694,-9.03781 V -39.237532 -257.93353 c 0,-8.07957 -0.1369341,-8.21653 -7.9425864,-8.21653 -19.599782,0 -39.253023,-0.16017 -58.892932,-0.1468 z m -43.265525,37.25788 h 72.98998 v 378.50717 c -1.780243,0 -3.560429,0.27394 -5.203727,0.27394 -19.582682,0 -39.1658,0.13694 -58.748473,0 -39.85005,-0.27392 -71.20923,-26.15601 -78.74104,-65.321383 -0.95859,-5.340705 -1.3697,-11.09237 -1.3697,-16.569987 0,-71.7575051 -0.13695,-143.651836 0,-215.40931 0,-40.39781 25.06057,-71.89425 63.13038,-80.2477 2.60188,-0.54776 5.34069,-1.23273 7.94258,-1.23273 z"
+       style="display:inline;fill:#ffffff;fill-opacity:1;stroke-width:0.24388"
+       d="m -364.70232,-465.9281 c -2.90141,-0.003 -5.79598,0.0103 -8.70425,0.0103 -1.60961,0 -1.60954,3e-5 -1.60954,1.56087 v 38.65487 39.14273 c 0,1.24378 0.0732,1.31693 1.29253,1.31693 3.80453,0 7.60902,0.0244 11.41355,-0.0245 1.36572,-0.0243 2.75589,-0.0975 4.09723,-0.36578 10.04785,-2.02421 16.80331,-10.2917 16.80331,-20.53465 0.0244,-12.95001 0,-25.9 0,-38.85001 0,-0.97552 -0.0488,-1.97544 -0.17076,-2.95096 -1.26817,-10.1454 -9.99907,-17.9008 -20.21763,-17.94958 -0.96942,-0.006 -1.9373,-0.009 -2.90444,-0.0103 z m 5.66026,36.29964 c 4.48738,0 8.0481,3.56062 8.0481,8.09679 -0.0244,4.51177 -3.6095,8.0968 -8.09689,8.0968 -4.48738,-0.0244 -8.048,-3.63382 -8.02362,-8.16998 0.0244,-4.463 3.60941,-8.02361 8.07241,-8.02361 z m -50.19042,-12.07209 c 0,-4.21911 3.38993,-7.65782 7.56028,-7.65782 4.19472,0 7.60904,3.46309 7.58465,7.65782 -0.0244,4.19474 -3.38993,7.56027 -7.53587,7.60905 -4.17035,0.0488 -7.60906,-3.38993 -7.60906,-7.60905 z m 14.38749,-24.2434 c -2.09861,10e-4 -4.19635,0.0139 -6.29067,0.0505 -7.85293,0.14633 -13.8036,3.68254 -17.852,10.38924 -2.04859,3.38993 -2.78021,7.14569 -2.78021,11.09654 v 37.02094 c 0,0.95113 0.0488,1.92664 0.0976,2.87778 0.65847,10.63315 9.38933,19.04701 20.07127,19.2421 5.6824,0.0975 11.38913,0.0244 17.07152,0.0244 1.58522,0 1.58525,0 1.58525,-1.60955 v -38.65497 -38.94758 c 0,-1.4389 -0.0244,-1.46329 -1.4145,-1.46329 -3.49052,0 -6.99057,-0.0286 -10.48824,-0.0262 z m -7.70516,6.63526 h 12.99879 v 67.40837 c -0.31704,0 -0.63408,0.0488 -0.92673,0.0488 -3.48749,0 -6.97505,0.0244 -10.46252,0 -7.0969,-0.0488 -12.68166,-4.65813 -14.02301,-11.63309 -0.17071,-0.95113 -0.24392,-1.97544 -0.24392,-2.95095 0,-12.77931 -0.0244,-25.58297 0,-38.36226 0,-7.19446 4.46304,-12.80366 11.24289,-14.29132 0.46337,-0.0975 0.95113,-0.21954 1.4145,-0.21954 z"
        inkscape:label="joycons" />
   </g>
 </svg>

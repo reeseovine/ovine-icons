@@ -8,54 +8,18 @@
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="907.52484mm"
-   height="907.52484mm"
-   viewBox="0 0 907.52483 907.52485"
+   width="512"
+   height="512"
+   viewBox="0 0 135.46666 135.46666"
    version="1.1"
    id="svg8"
-   inkscape:version="1.0.1 (0767f8302a, 2020-10-17)"
-   sodipodi:docname="port_authority.svg"
+   inkscape:version="1.0.2 (394de47547, 2021-03-26)"
+   sodipodi:docname="com.aaronjwood.portauthority.svg"
    inkscape:export-filename="/home/reese/Pictures/icons/png/port_authority.png"
    inkscape:export-xdpi="28.659931"
    inkscape:export-ydpi="28.659931">
   <defs
      id="defs2">
-    <filter
-       style="color-interpolation-filters:sRGB"
-       inkscape:label="Drop Shadow"
-       id="filter4754"
-       x="-0.063469335"
-       width="1.1269387"
-       y="-0.063469335"
-       height="1.1269387">
-      <feFlood
-         flood-opacity="0.2"
-         flood-color="rgb(0,0,0)"
-         result="flood"
-         id="feFlood4744" />
-      <feComposite
-         in="flood"
-         in2="SourceGraphic"
-         operator="in"
-         result="composite1"
-         id="feComposite4746" />
-      <feGaussianBlur
-         in="composite1"
-         stdDeviation="19.999999"
-         result="blur"
-         id="feGaussianBlur4748" />
-      <feOffset
-         dx="0"
-         dy="10"
-         result="offset"
-         id="feOffset4750" />
-      <feComposite
-         in="SourceGraphic"
-         in2="offset"
-         operator="over"
-         result="composite2"
-         id="feComposite4752" />
-    </filter>
     <filter
        inkscape:collect="always"
        style="color-interpolation-filters:sRGB"
@@ -191,16 +155,6 @@
        gradientTransform="matrix(0.81609363,0,0,1,71.833605,5.0012207e-6)" />
     <linearGradient
        inkscape:collect="always"
-       xlink:href="#linearGradient910"
-       id="linearGradient912"
-       x1="150.74646"
-       y1="484.33173"
-       x2="470.77893"
-       y2="164.29927"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(1.4395276,0,0,1.4395276,-485.12133,-537.85767)" />
-    <linearGradient
-       inkscape:collect="always"
        id="linearGradient910">
       <stop
          style="stop-color:#e9e9e9;stop-opacity:1;"
@@ -234,11 +188,11 @@
     <linearGradient
        inkscape:collect="always"
        xlink:href="#linearGradient910"
-       id="linearGradient2690"
-       x1="-265.23825"
-       y1="243.15144"
-       x2="278.2774"
-       y2="-300.3642"
+       id="linearGradient9623"
+       x1="-449.38412"
+       y1="-357.94406"
+       x2="-313.94672"
+       y2="-493.38144"
        gradientUnits="userSpaceOnUse" />
   </defs>
   <sodipodi:namedview
@@ -248,9 +202,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.23789982"
-     inkscape:cx="1267.3402"
-     inkscape:cy="1715.0076"
+     inkscape:zoom="1.4135941"
+     inkscape:cx="255.59798"
+     inkscape:cy="265.94926"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -259,9 +213,9 @@
      fit-margin-right="0"
      fit-margin-bottom="0"
      inkscape:window-width="1892"
-     inkscape:window-height="1022"
+     inkscape:window-height="1000"
      inkscape:window-x="14"
-     inkscape:window-y="44"
+     inkscape:window-y="66"
      inkscape:window-maximized="1"
      inkscape:snap-global="true"
      inkscape:snap-bbox="true"
@@ -273,7 +227,8 @@
      inkscape:snap-text-baseline="true"
      inkscape:snap-page="true"
      inkscape:snap-to-guides="true"
-     inkscape:document-rotation="0" />
+     inkscape:document-rotation="0"
+     units="px" />
   <metadata
      id="metadata5">
     <rdf:RDF>
@@ -282,7 +237,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -291,27 +246,19 @@
      inkscape:groupmode="layer"
      id="layer1"
      transform="translate(449.41339,493.41072)">
-    <circle
-       style="display:inline;mix-blend-mode:normal;fill:url(#linearGradient2690);fill-opacity:1;stroke:none;stroke-width:0.264583;filter:url(#filter4754)"
-       id="path4586"
-       cx="4.3490262"
-       cy="-39.648304"
-       r="378.13535"
-       transform="matrix(1.03,0,0,1.03,-0.13047112,1.1894488)" />
     <rect
-       style="display:none;opacity:1;fill:url(#linearGradient912);fill-opacity:1;stroke:none;stroke-width:137.723;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       id="rect839"
-       width="544.93335"
-       height="397.99918"
-       x="-268.11765"
-       y="-238.64789"
-       ry="23.692921"
-       inkscape:label="border" />
+       style="display:inline;fill:url(#linearGradient9623);fill-opacity:1;stroke-width:0.0264583;stroke-linecap:round;stroke-linejoin:round"
+       id="rect9615"
+       width="135.46666"
+       height="135.46666"
+       x="-449.41339"
+       y="-493.41071"
+       ry="0.79374999" />
     <g
        id="g1009"
        inkscape:label="port"
        style="display:inline"
-       transform="matrix(1.8479218,0,0,1.8479218,-623.91075,-670.20402)">
+       transform="matrix(0.32811934,0,0,0.32811934,-493.16609,-539.50323)">
       <path
          id="rect841-9"
          style="display:inline;opacity:1;fill:#ffffff;fill-opacity:0.99;stroke:none;stroke-width:96;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;filter:url(#filter1640)"

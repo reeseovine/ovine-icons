@@ -8,13 +8,13 @@
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="907.52484mm"
-   height="907.52484mm"
-   viewBox="0 0 907.52483 907.52485"
+   width="512"
+   height="512"
+   viewBox="0 0 135.46667 135.46667"
    version="1.1"
    id="svg8"
-   inkscape:version="1.0.1 (0767f8302a, 2020-10-17)"
-   sodipodi:docname="fly_delta.svg"
+   inkscape:version="1.0.2 (394de47547, 2021-03-26)"
+   sodipodi:docname="com.delta.mobile.android.svg"
    inkscape:export-filename="/home/reese/Pictures/icons/png/cvs_pharmacy.png"
    inkscape:export-xdpi="28.659931"
    inkscape:export-ydpi="28.659931">
@@ -32,149 +32,267 @@
          offset="1"
          id="stop4235" />
     </linearGradient>
-    <filter
-       style="color-interpolation-filters:sRGB"
-       inkscape:label="Drop Shadow"
-       id="filter4754">
-      <feFlood
-         flood-opacity="0.2"
-         flood-color="rgb(0,0,0)"
-         result="flood"
-         id="feFlood4744" />
-      <feComposite
-         in="flood"
-         in2="SourceGraphic"
-         operator="in"
-         result="composite1"
-         id="feComposite4746" />
-      <feGaussianBlur
-         in="composite1"
-         stdDeviation="20"
-         result="blur"
-         id="feGaussianBlur4748" />
-      <feOffset
-         dx="0"
-         dy="10"
-         result="offset"
-         id="feOffset4750" />
-      <feComposite
-         in="SourceGraphic"
-         in2="offset"
-         operator="over"
-         result="composite2"
-         id="feComposite4752" />
-    </filter>
-    <filter
-       style="color-interpolation-filters:sRGB;"
-       inkscape:label="Drop Shadow"
-       id="filter1405">
-      <feFlood
-         flood-opacity="0.0784314"
-         flood-color="rgb(0,0,0)"
-         result="flood"
-         id="feFlood1395" />
-      <feComposite
-         in="flood"
-         in2="SourceGraphic"
-         operator="in"
-         result="composite1"
-         id="feComposite1397" />
-      <feGaussianBlur
-         in="composite1"
-         stdDeviation="20"
-         result="blur"
-         id="feGaussianBlur1399" />
-      <feOffset
-         dx="0"
-         dy="10"
-         result="offset"
-         id="feOffset1401" />
-      <feComposite
-         in="SourceGraphic"
-         in2="offset"
-         operator="over"
-         result="composite2"
-         id="feComposite1403" />
-    </filter>
-    <clipPath
-       clipPathUnits="userSpaceOnUse"
-       id="clipPath3581">
-      <rect
-         style="display:inline;fill:#4797e4;fill-opacity:0.960784;stroke:none;stroke-width:3.08692;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:3;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-         id="rect3583"
-         width="39.101017"
-         height="26.753328"
-         x="66.800629"
-         y="1025.3973"
-         rx="3.0869224"
-         ry="3.0869224" />
-    </clipPath>
-    <filter
-       style="color-interpolation-filters:sRGB;"
-       inkscape:label="Drop Shadow"
-       id="filter4139">
-      <feFlood
-         flood-opacity="0.196078"
-         flood-color="rgb(0,0,0)"
-         result="flood"
-         id="feFlood4129" />
-      <feComposite
-         in="flood"
-         in2="SourceGraphic"
-         operator="in"
-         result="composite1"
-         id="feComposite4131" />
-      <feGaussianBlur
-         in="composite1"
-         stdDeviation="20"
-         result="blur"
-         id="feGaussianBlur4133" />
-      <feOffset
-         dx="0"
-         dy="6"
-         result="offset"
-         id="feOffset4135" />
-      <feComposite
-         in="SourceGraphic"
-         in2="offset"
-         operator="over"
-         result="composite2"
-         id="feComposite4137" />
-    </filter>
-    <clipPath
-       clipPathUnits="userSpaceOnUse"
-       id="clipPath4143">
-      <circle
-         style="fill:#f2f2f2;fill-opacity:1;stroke:none;stroke-width:0.272521"
-         id="circle4145"
-         cx="4.3490291"
-         cy="-39.6483"
-         r="389.4794"
-         clip-path="none"
-         inkscape:label="plate" />
-    </clipPath>
-    <clipPath
-       clipPathUnits="userSpaceOnUse"
-       id="clipPath4229">
-      <circle
-         style="fill:#01346b;fill-opacity:1;stroke:none;stroke-width:0.111183"
-         id="circle4231"
-         cx="576.35345"
-         cy="682.57422"
-         r="158.90031"
-         clip-path="none"
-         inkscape:label="plate"
-         transform="rotate(-56.853029)" />
-    </clipPath>
     <linearGradient
        inkscape:collect="always"
        xlink:href="#linearGradient4237"
-       id="linearGradient4239"
-       x1="13.391692"
-       y1="-413.80734"
-       x2="13.391692"
-       y2="338.62418"
+       id="linearGradient13679"
+       x1="-449.41339"
+       y1="-493.41071"
+       x2="-313.94672"
+       y2="-357.94403"
        gradientUnits="userSpaceOnUse" />
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath1733">
+      <path
+         d="M 0,807 H 712 V 0 H 0 Z"
+         id="path1731" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath1741">
+      <path
+         d="m 163.75,548.25 h 384.5 v -384.5 h -384.5 z"
+         id="path1739" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath1745">
+      <path
+         d="m 163.75,548.25 h 384.5 v -384.5 h -384.5 z"
+         id="path1743" />
+    </clipPath>
+    <mask
+       maskUnits="userSpaceOnUse"
+       x="0"
+       y="0"
+       width="1"
+       height="1"
+       id="mask1747">
+      <g
+         id="g1763">
+        <g
+           clip-path="url(#clipPath1741)"
+           id="g1761">
+          <path
+             d="m 163.75,548.25 h 384.5 v -384.5 h -384.5 z"
+             style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             id="path1749" />
+          <g
+             id="g1759">
+            <g
+               id="g1751" />
+            <g
+               id="g1757">
+              <g
+                 clip-path="url(#clipPath1745)"
+                 id="g1755">
+                <path
+                   d="M 99.917,612.083 H 612.586 V 99.414 H 99.917 Z"
+                   style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                   id="path1753" />
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+    </mask>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath1771">
+      <path
+         d="m 163.75,548.25 h 384.5 v -384.5 h -384.5 z"
+         id="path1769" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath1775">
+      <path
+         d="M 164,548 H 548 V 164 H 164 Z"
+         id="path1773" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath1779">
+      <path
+         d="M 164.066,547.968 H 547.999 V 163.956 H 164.066 Z"
+         id="path1777" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath1783">
+      <path
+         d="M 164.02,547.93 H 547.835 V 164.176 H 164.02 Z"
+         id="path1781" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath1787">
+      <path
+         d="m 299.75,548.25 h 0.5 v -384.5 h -0.5 z"
+         id="path1785" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath1791">
+      <path
+         d="m 355.75,548.25 h 0.5 v -384.5 h -0.5 z"
+         id="path1789" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath1795">
+      <path
+         d="m 411.83,548.25 h 0.5 v -384.5 h -0.5 z"
+         id="path1793" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath1799">
+      <path
+         d="m 163.9,412.1 h 383.933 v -0.2 H 163.9 Z"
+         id="path1797" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath1803">
+      <path
+         d="m 163.9,356.1 h 383.933 v -0.2 H 163.9 Z"
+         id="path1801" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath1807">
+      <path
+         d="m 163.75,300.25 h 384.233 v -0.5 H 163.75 Z"
+         id="path1805" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath2161">
+      <path
+         d="M 0,807 H 712 V 0 H 0 Z"
+         id="path2159" />
+    </clipPath>
+    <mask
+       maskUnits="userSpaceOnUse"
+       x="0"
+       y="0"
+       width="1"
+       height="1"
+       id="mask2175">
+      <g
+         id="g2191">
+        <g
+           clip-path="url(#clipPath2169)"
+           id="g2189">
+          <path
+             d="m 163.75,548.25 h 384.5 v -384.5 h -384.5 z"
+             style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             id="path2177" />
+          <g
+             id="g2187">
+            <g
+               id="g2179" />
+            <g
+               id="g2185">
+              <g
+                 clip-path="url(#clipPath2173)"
+                 id="g2183">
+                <path
+                   d="M 99.917,612.083 H 612.586 V 99.414 H 99.917 Z"
+                   style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                   id="path2181" />
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+    </mask>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath2169">
+      <path
+         d="m 163.75,548.25 h 384.5 v -384.5 h -384.5 z"
+         id="path2167" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath2173">
+      <path
+         d="m 163.75,548.25 h 384.5 v -384.5 h -384.5 z"
+         id="path2171" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath2199">
+      <path
+         d="m 163.75,548.25 h 384.5 v -384.5 h -384.5 z"
+         id="path2197" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath2203">
+      <path
+         d="M 164,548 H 548 V 164 H 164 Z"
+         id="path2201" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath2207">
+      <path
+         d="M 164.066,547.968 H 547.999 V 163.956 H 164.066 Z"
+         id="path2205" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath2211">
+      <path
+         d="M 164.02,547.93 H 547.835 V 164.176 H 164.02 Z"
+         id="path2209" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath2215">
+      <path
+         d="m 299.75,548.25 h 0.5 v -384.5 h -0.5 z"
+         id="path2213" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath2219">
+      <path
+         d="m 355.75,548.25 h 0.5 v -384.5 h -0.5 z"
+         id="path2217" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath2223">
+      <path
+         d="m 411.83,548.25 h 0.5 v -384.5 h -0.5 z"
+         id="path2221" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath2227">
+      <path
+         d="m 163.9,412.1 h 383.933 v -0.2 H 163.9 Z"
+         id="path2225" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath2231">
+      <path
+         d="m 163.9,356.1 h 383.933 v -0.2 H 163.9 Z"
+         id="path2229" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath2235">
+      <path
+         d="m 163.75,300.25 h 384.233 v -0.5 H 163.75 Z"
+         id="path2233" />
+    </clipPath>
   </defs>
   <sodipodi:namedview
      id="base"
@@ -183,9 +301,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.22627417"
-     inkscape:cx="1838.209"
-     inkscape:cy="1817.3596"
+     inkscape:zoom="1.2143049"
+     inkscape:cx="169.14589"
+     inkscape:cy="276.52468"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -194,13 +312,13 @@
      fit-margin-right="0"
      fit-margin-bottom="0"
      inkscape:window-width="1892"
-     inkscape:window-height="1022"
+     inkscape:window-height="1000"
      inkscape:window-x="14"
-     inkscape:window-y="44"
+     inkscape:window-y="66"
      inkscape:window-maximized="1"
      inkscape:snap-global="true"
      inkscape:snap-bbox="true"
-     inkscape:bbox-paths="true"
+     inkscape:bbox-paths="false"
      inkscape:bbox-nodes="true"
      inkscape:snap-bbox-edge-midpoints="true"
      inkscape:snap-bbox-midpoints="true"
@@ -208,7 +326,8 @@
      inkscape:snap-text-baseline="true"
      inkscape:snap-page="true"
      inkscape:snap-to-guides="true"
-     inkscape:document-rotation="0" />
+     inkscape:document-rotation="0"
+     units="px" />
   <metadata
      id="metadata5">
     <rdf:RDF>
@@ -217,7 +336,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -226,19 +345,18 @@
      inkscape:groupmode="layer"
      id="layer1"
      transform="translate(449.41339,493.41072)">
-    <circle
-       style="fill:url(#linearGradient4239);fill-opacity:1;stroke:none;stroke-width:0.264583;filter:url(#filter4754)"
-       id="path4586"
-       cx="4.3490262"
-       cy="-39.648304"
-       r="378.13535"
-       transform="matrix(1.03,0,0,1.03,-0.13047101,1.1894489)"
-       clip-path="none"
-       inkscape:label="plate" />
+    <rect
+       style="display:inline;fill:url(#linearGradient13679);fill-opacity:1;stroke:none;stroke-width:1.626;stroke-linecap:round;stroke-linejoin:round"
+       id="rect13671"
+       width="135.46666"
+       height="135.46666"
+       x="-449.41339"
+       y="-493.41071" />
     <g
        id="g4225"
-       transform="matrix(1.3402294,2.0522282,-2.0522282,1.3402294,-1408.3467,-1712.701)"
-       clip-path="url(#clipPath4229)">
+       transform="matrix(0.11330665,0.17350097,-0.17350097,0.11330665,-489.41181,-574.77968)"
+       clip-path="none"
+       mask="none">
       <path
          id="path4175-8"
          style="opacity:1;fill:#810027;fill-opacity:1;stroke-width:25.4;stroke-linejoin:round"

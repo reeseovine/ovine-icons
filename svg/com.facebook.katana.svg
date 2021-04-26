@@ -14,32 +14,32 @@
    version="1.1"
    id="svg8"
    inkscape:version="1.0.2 (394de47547, 2021-03-26)"
-   sodipodi:docname="com.privacy.pay.svg"
-   inkscape:export-filename="/home/reese/Pictures/icons/png/privacy.com.png"
+   sodipodi:docname="com.facebook.katana.svg"
+   inkscape:export-filename="/home/reese/Pictures/icons/png/ml.docilealligator.infinityforreddit.png"
    inkscape:export-xdpi="28.659931"
    inkscape:export-ydpi="28.659931">
   <defs
      id="defs2">
     <linearGradient
        inkscape:collect="always"
-       id="linearGradient1081">
+       id="linearGradient1783">
       <stop
-         style="stop-color:#fb2a38;stop-opacity:1"
+         style="stop-color:#0167e3;stop-opacity:1"
          offset="0"
-         id="stop1077" />
+         id="stop1779" />
       <stop
-         style="stop-color:#ff244c;stop-opacity:1"
+         style="stop-color:#17aeff;stop-opacity:1"
          offset="1"
-         id="stop1079" />
+         id="stop1781" />
     </linearGradient>
     <linearGradient
        inkscape:collect="always"
-       xlink:href="#linearGradient1081"
-       id="linearGradient10699"
-       x1="-381.6947"
-       y1="-493.38144"
-       x2="-381.6947"
-       y2="-357.94406"
+       xlink:href="#linearGradient1783"
+       id="linearGradient17588"
+       x1="-381.68005"
+       y1="-357.94406"
+       x2="-381.68005"
+       y2="-493.41071"
        gradientUnits="userSpaceOnUse" />
   </defs>
   <sodipodi:namedview
@@ -49,9 +49,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.3212617"
-     inkscape:cx="205.32205"
-     inkscape:cy="282.63156"
+     inkscape:zoom="1.3352258"
+     inkscape:cx="198.86078"
+     inkscape:cy="279.63893"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -66,7 +66,7 @@
      inkscape:window-maximized="1"
      inkscape:snap-global="true"
      inkscape:snap-bbox="true"
-     inkscape:bbox-paths="true"
+     inkscape:bbox-paths="false"
      inkscape:bbox-nodes="true"
      inkscape:snap-bbox-edge-midpoints="true"
      inkscape:snap-bbox-midpoints="true"
@@ -75,6 +75,7 @@
      inkscape:snap-page="true"
      inkscape:snap-to-guides="true"
      inkscape:document-rotation="0"
+     inkscape:object-nodes="false"
      units="px" />
   <metadata
      id="metadata5">
@@ -90,39 +91,20 @@
   </metadata>
   <g
      inkscape:label="Layer 1"
-     inkscape:groupmode="layer"
      id="layer1"
      transform="translate(449.41339,493.41072)">
     <rect
-       style="display:inline;fill:url(#linearGradient10699);fill-opacity:1;stroke-width:0.0264583;stroke-linecap:round;stroke-linejoin:round"
-       id="rect10691"
-       width="135.43739"
-       height="135.43739"
+       style="fill:url(#linearGradient17588);fill-opacity:1;stroke-width:1.626;stroke-linecap:round;stroke-linejoin:round"
+       id="rect17580"
+       width="135.46666"
+       height="135.46666"
        x="-449.41339"
-       y="-493.38144"
-       ry="0.79374999" />
-    <g
-       id="g251"
-       inkscape:label="cards"
-       style="fill:#ffffff;fill-opacity:1"
-       transform="matrix(0.1505336,0,0,0.1505336,-382.32629,-419.99722)">
-      <rect
-         style="display:inline;fill:#ffffff;fill-opacity:1;stroke-width:25.4459;stroke-linejoin:round"
-         id="rect232"
-         width="531.92261"
-         height="338.81558"
-         x="-261.76581"
-         y="-156.91049"
-         ry="32.161541" />
-      <path
-         id="rect234"
-         style="display:inline;fill:#ffffff;fill-opacity:1;stroke-width:25.4;stroke-linejoin:round"
-         d="m -185.5065,-221.89705 c -17.7964,0 -32.12311,14.32722 -32.12311,32.12362 v 20.87108 h 444.77852 v -20.87108 c 0,-17.7964 -14.32721,-32.12362 -32.12362,-32.12362 z" />
-      <path
-         id="rect236"
-         style="display:inline;fill:#ffffff;fill-opacity:1;stroke-width:96;stroke-linejoin:round"
-         d="m 1135.5332,831.00391 c -49.268,0 -88.9316,39.66165 -88.9316,88.92968 v 60.20313 h 1339.7949 v -60.20313 c 0,-49.26803 -39.6636,-88.92968 -88.9317,-88.92968 z"
-         transform="matrix(0.26458333,0,0,0.26458333,-449.41339,-493.41072)" />
-    </g>
+       y="-493.41071" />
+    <path
+       id="XMLID_18_"
+       mask="none"
+       style="fill:#ffffff;fill-opacity:1;stroke-width:1.35479"
+       d="m 311.48828,114.09961 c -56.49468,0 -93.3457,34.27565 -93.3457,96.18945 v 54.46289 h -62.72656 v 71.53125 h 62.72656 V 512 h 77.22265 V 336.2832 h 57.71485 l 10.97265,-71.53125 H 295.5 v -46.33398 c 0,-19.5089 9.62006,-38.61133 40.23828,-38.61133 h 31.16016 v -60.83008 c 0,0 -28.31442,-4.87695 -55.41016,-4.87695 z"
+       transform="matrix(0.26458333,0,0,0.26458333,-449.41339,-493.41072)" />
   </g>
 </svg>
