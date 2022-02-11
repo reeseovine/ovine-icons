@@ -12,7 +12,7 @@
    viewBox="0 0 135.46667 135.46667"
    version="1.1"
    id="svg8"
-   inkscape:version="1.0.2 (394de47547, 2021-03-26)"
+   inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)"
    sodipodi:docname="com.cvs.launchers.cvs.svg"
    inkscape:export-filename="/home/reese/Pictures/icons/png/cvs_pharmacy.png"
    inkscape:export-xdpi="28.659931"
@@ -26,11 +26,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.3434343"
-     inkscape:cx="370.37848"
-     inkscape:cy="283.69731"
+     inkscape:zoom="1.4419209"
+     inkscape:cx="-105.95944"
+     inkscape:cy="183.26114"
      inkscape:document-units="mm"
-     inkscape:current-layer="layer1"
+     inkscape:current-layer="svg8"
      showgrid="false"
      fit-margin-top="0"
      fit-margin-left="0"
@@ -42,7 +42,7 @@
      inkscape:window-y="66"
      inkscape:window-maximized="1"
      inkscape:snap-global="true"
-     inkscape:snap-bbox="true"
+     inkscape:snap-bbox="false"
      inkscape:bbox-paths="false"
      inkscape:bbox-nodes="true"
      inkscape:snap-bbox-edge-midpoints="true"
@@ -61,22 +61,30 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
   <g
-     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer9"
+     inkscape:label="Background">
+    <path
+       d="M 0,0 H 135.43739 V 135.43739 H 0 Z"
+       style="fill:#cc0000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.26452601"
+       id="path3481"
+       inkscape:connector-curvature="0" />
+  </g>
+  <g
+     inkscape:label="Foreground"
      inkscape:groupmode="layer"
      id="layer1"
      transform="translate(449.41339,493.41072)">
     <path
-       d="m -449.38411,-493.38144 h 135.43739 v 135.43739 h -135.43739 z"
-       style="fill:#cc0000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.264526"
-       id="path3481" />
-    <path
-       d="m -400.96343,-457.44395 c -2.64776,0 -5.29548,1.01835 -7.23038,3.0551 l -14.56261,14.5626 c -3.97163,3.97164 -3.97163,10.48916 0,14.5626 l 41.1419,41.04008 41.04009,-41.14192 c 3.97164,-3.9716 3.97164,-10.48912 0,-14.56261 l -14.56261,-14.46075 c -2.03674,-2.03675 -4.68447,-3.0551 -7.23038,-3.0551 -2.64776,0 -5.29552,1.01835 -7.33222,3.0551 l -11.91488,12.01668 -12.01669,-12.01668 c -2.03674,-2.03675 -4.68445,-3.0551 -7.33222,-3.0551 z"
+       d="m -395.53274,-448.37913 c -1.90064,0 -3.80125,0.731 -5.19018,2.19304 l -10.45347,10.45346 c -2.85096,2.85096 -2.85096,7.52943 0,10.45346 l 29.53287,29.45978 29.45979,-29.53288 c 2.85096,-2.85093 2.85096,-7.5294 0,-10.45347 l -10.45348,-10.38035 c -1.46203,-1.46204 -3.36265,-2.19304 -5.19018,-2.19304 -1.90064,0 -3.80127,0.731 -5.26328,2.19304 l -8.55285,8.62592 -8.62594,-8.62592 c -1.46203,-1.46204 -3.36263,-2.19304 -5.26328,-2.19304 z"
        id="path2703"
-       style="fill:#ffffff;stroke-width:1.01836" />
+       style="fill:#ffffff;stroke-width:0.7310093"
+       inkscape:label="heart"
+       inkscape:connector-curvature="0" />
   </g>
 </svg>

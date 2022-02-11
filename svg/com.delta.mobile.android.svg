@@ -13,7 +13,7 @@
    viewBox="0 0 135.46667 135.46667"
    version="1.1"
    id="svg8"
-   inkscape:version="1.0.2 (394de47547, 2021-03-26)"
+   inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)"
    sodipodi:docname="com.delta.mobile.android.svg"
    inkscape:export-filename="/home/reese/Pictures/icons/png/cvs_pharmacy.png"
    inkscape:export-xdpi="28.659931"
@@ -40,7 +40,8 @@
        y1="-493.41071"
        x2="-313.94672"
        y2="-357.94403"
-       gradientUnits="userSpaceOnUse" />
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(449.41339,493.41071)" />
     <clipPath
        clipPathUnits="userSpaceOnUse"
        id="clipPath1733">
@@ -301,9 +302,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.2143049"
-     inkscape:cx="169.14589"
-     inkscape:cy="276.52468"
+     inkscape:zoom="2.6857142"
+     inkscape:cx="220.28764"
+     inkscape:cy="252.2127"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -320,7 +321,7 @@
      inkscape:snap-bbox="true"
      inkscape:bbox-paths="false"
      inkscape:bbox-nodes="true"
-     inkscape:snap-bbox-edge-midpoints="true"
+     inkscape:snap-bbox-edge-midpoints="false"
      inkscape:snap-bbox-midpoints="true"
      inkscape:snap-nodes="true"
      inkscape:snap-text-baseline="true"
@@ -341,36 +342,44 @@
     </rdf:RDF>
   </metadata>
   <g
-     inkscape:label="Layer 1"
      inkscape:groupmode="layer"
-     id="layer1"
-     transform="translate(449.41339,493.41072)">
+     id="layer15"
+     inkscape:label="Background">
     <rect
        style="display:inline;fill:url(#linearGradient13679);fill-opacity:1;stroke:none;stroke-width:1.626;stroke-linecap:round;stroke-linejoin:round"
        id="rect13671"
        width="135.46666"
        height="135.46666"
-       x="-449.41339"
-       y="-493.41071" />
+       x="0"
+       y="5.6843419e-14" />
+  </g>
+  <g
+     inkscape:label="Foreground"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(449.41339,493.41072)">
     <g
        id="g4225"
-       transform="matrix(0.11330665,0.17350097,-0.17350097,0.11330665,-489.41181,-574.77968)"
+       transform="matrix(0.0779893,0.11942122,-0.11942122,0.0779893,-456.33029,-527.79961)"
        clip-path="none"
-       mask="none">
+       mask="none"
+       inkscape:label="delta">
       <path
          id="path4175-8"
-         style="opacity:1;fill:#810027;fill-opacity:1;stroke-width:25.4;stroke-linejoin:round"
+         style="opacity:1;fill:#810027;fill-opacity:1;stroke-width:25.39999962;stroke-linejoin:round"
          inkscape:transform-center-x="6.1939281e-05"
          inkscape:transform-center-y="-14.636014"
          transform="matrix(1.4125579,0,0,0.35246597,-365.92773,33.046245)"
-         d="M 1030.8184,51.034001 743.12744,51.034 886.9729,-198.11365 Z M 886.97281,-854.79666 753.85174,-35.966489 886.97281,-295.85144 1020.0935,-35.967915 Z" />
+         d="M 1030.8184,51.034001 743.12744,51.034 886.9729,-198.11365 Z M 886.97281,-854.79666 753.85174,-35.966489 886.97281,-295.85144 1020.0935,-35.967915 Z"
+         inkscape:connector-curvature="0" />
       <path
          id="path4207"
-         style="opacity:1;fill:#c70029;fill-opacity:1;stroke-width:67.7381;stroke-linejoin:round"
+         style="opacity:1;fill:#c70029;fill-opacity:1;stroke-width:67.73809814;stroke-linejoin:round"
          inkscape:transform-center-x="6.1939281e-05"
          inkscape:transform-center-y="-14.636014"
          transform="matrix(0.26458333,0,0,0.26458333,-449.41339,-493.41072)"
-         d="m 5050.9023,1725.8418 -767.957,331.9023 h 767.957 z m 0,-874.79492 -710.7011,1090.79882 710.7011,-346.2051 z" />
+         d="m 5050.9023,1725.8418 -767.957,331.9023 h 767.957 z m 0,-874.79492 -710.7011,1090.79882 710.7011,-346.2051 z"
+         inkscape:connector-curvature="0" />
     </g>
   </g>
 </svg>

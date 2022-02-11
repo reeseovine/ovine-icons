@@ -13,7 +13,7 @@
    viewBox="0 0 135.46667 135.46667"
    version="1.1"
    id="svg8"
-   inkscape:version="1.0.2 (394de47547, 2021-03-26)"
+   inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)"
    sodipodi:docname="com.privacy.pay.svg"
    inkscape:export-filename="/home/reese/Pictures/icons/png/privacy.com.png"
    inkscape:export-xdpi="28.659931"
@@ -36,11 +36,12 @@
        inkscape:collect="always"
        xlink:href="#linearGradient1081"
        id="linearGradient10699"
-       x1="-381.6947"
-       y1="-493.38144"
-       x2="-381.6947"
-       y2="-357.94406"
-       gradientUnits="userSpaceOnUse" />
+       x1="-381.72775"
+       y1="-464.47299"
+       x2="-381.72775"
+       y2="-385.56668"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(449.41339,493.38144)" />
   </defs>
   <sodipodi:namedview
      id="base"
@@ -49,9 +50,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.3212617"
-     inkscape:cx="205.32205"
-     inkscape:cy="282.63156"
+     inkscape:zoom="2.1490529"
+     inkscape:cx="247.35878"
+     inkscape:cy="284.94254"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -65,7 +66,7 @@
      inkscape:window-y="66"
      inkscape:window-maximized="1"
      inkscape:snap-global="true"
-     inkscape:snap-bbox="true"
+     inkscape:snap-bbox="false"
      inkscape:bbox-paths="true"
      inkscape:bbox-nodes="true"
      inkscape:snap-bbox-edge-midpoints="true"
@@ -84,45 +85,53 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
   <g
-     inkscape:label="Layer 1"
      inkscape:groupmode="layer"
-     id="layer1"
-     transform="translate(449.41339,493.41072)">
+     id="layer7"
+     inkscape:label="Background">
     <rect
        style="display:inline;fill:url(#linearGradient10699);fill-opacity:1;stroke-width:0.0264583;stroke-linecap:round;stroke-linejoin:round"
        id="rect10691"
        width="135.43739"
        height="135.43739"
-       x="-449.41339"
-       y="-493.38144"
+       x="-3.469447e-18"
+       y="0"
        ry="0.79374999" />
+  </g>
+  <g
+     inkscape:label="Foreground"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(449.41339,493.41072)">
     <g
        id="g251"
        inkscape:label="cards"
        style="fill:#ffffff;fill-opacity:1"
-       transform="matrix(0.1505336,0,0,0.1505336,-382.32629,-419.99722)">
+       transform="matrix(0.09739606,0,0,0.09739606,-382.08868,-422.43188)">
       <rect
-         style="display:inline;fill:#ffffff;fill-opacity:1;stroke-width:25.4459;stroke-linejoin:round"
+         style="display:inline;fill:#ffffff;fill-opacity:1;stroke-width:25.44589996;stroke-linejoin:round"
          id="rect232"
          width="531.92261"
          height="338.81558"
          x="-261.76581"
          y="-156.91049"
-         ry="32.161541" />
+         ry="36.875664"
+         rx="36.875664" />
       <path
          id="rect234"
-         style="display:inline;fill:#ffffff;fill-opacity:1;stroke-width:25.4;stroke-linejoin:round"
-         d="m -185.5065,-221.89705 c -17.7964,0 -32.12311,14.32722 -32.12311,32.12362 v 20.87108 h 444.77852 v -20.87108 c 0,-17.7964 -14.32721,-32.12362 -32.12362,-32.12362 z" />
+         style="display:inline;fill:#ffffff;fill-opacity:1;stroke-width:25.39999962;stroke-linejoin:round"
+         d="m -185.5065,-221.89705 c -17.7964,0 -32.12311,14.32722 -32.12311,32.12362 v 20.87108 h 444.77852 v -20.87108 c 0,-17.7964 -14.32721,-32.12362 -32.12362,-32.12362 z"
+         inkscape:connector-curvature="0" />
       <path
          id="rect236"
          style="display:inline;fill:#ffffff;fill-opacity:1;stroke-width:96;stroke-linejoin:round"
          d="m 1135.5332,831.00391 c -49.268,0 -88.9316,39.66165 -88.9316,88.92968 v 60.20313 h 1339.7949 v -60.20313 c 0,-49.26803 -39.6636,-88.92968 -88.9317,-88.92968 z"
-         transform="matrix(0.26458333,0,0,0.26458333,-449.41339,-493.41072)" />
+         transform="matrix(0.26458333,0,0,0.26458333,-449.41339,-493.41072)"
+         inkscape:connector-curvature="0" />
     </g>
   </g>
 </svg>

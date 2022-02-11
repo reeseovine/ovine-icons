@@ -12,7 +12,7 @@
    viewBox="0 0 135.46667 135.46667"
    version="1.1"
    id="svg8"
-   inkscape:version="1.0.2 (394de47547, 2021-03-26)"
+   inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)"
    sodipodi:docname="com.cochlear.clientremote.svg"
    inkscape:export-filename="/home/reese/Pictures/icons/png/org.fdroid.fdroid.png"
    inkscape:export-xdpi="28.659931"
@@ -26,9 +26,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.98151224"
-     inkscape:cx="279.22849"
-     inkscape:cy="344.33029"
+     inkscape:zoom="2.8044988"
+     inkscape:cx="197.52769"
+     inkscape:cy="276.50692"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -45,7 +45,7 @@
      inkscape:snap-bbox="true"
      inkscape:bbox-paths="true"
      inkscape:bbox-nodes="true"
-     inkscape:snap-bbox-edge-midpoints="true"
+     inkscape:snap-bbox-edge-midpoints="false"
      inkscape:snap-bbox-midpoints="true"
      inkscape:snap-nodes="true"
      inkscape:snap-text-baseline="true"
@@ -61,27 +61,33 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
   <g
-     inkscape:label="Layer 1"
      inkscape:groupmode="layer"
-     id="layer1"
-     transform="translate(449.41339,493.41072)">
+     id="layer14"
+     inkscape:label="Background">
     <rect
        style="fill:#fbc348;fill-opacity:1;stroke-width:1.626;stroke-linecap:round;stroke-linejoin:round"
        id="rect22038"
        width="135.45935"
        height="135.44472"
-       x="-449.41339"
-       y="-493.38876" />
+       x="0.0073160809"
+       y="0" />
+  </g>
+  <g
+     inkscape:label="Foreground"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(449.41339,493.41072)">
     <path
        id="path5189"
-       style="fill:#777676;fill-opacity:1;stroke:none;stroke-width:0.670721;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m -375.171,-423.58823 v 28.07269 c 5.80346,3.37139 12.87643,3.22974 19.38732,3.00575 3.9669,-0.32079 8.09895,-0.79147 11.62898,-2.76287 v -33.24392 c -1.98779,-12.25648 -11.74504,-22.03098 -22.95688,-26.756 -12.82518,-5.04427 -27.30707,-4.61598 -40.08195,0.17104 -8.79509,3.46257 -16.13706,11.12583 -18.26337,20.43499 -0.62269,6.6662 0.67967,13.48503 3.16834,19.66908 0.79726,3.74542 4.50436,2.17402 2.90071,-1.15765 -1.56252,-6.01998 -2.17596,-12.26029 1.9785,-17.35289 6.14048,-7.68691 17.46554,-9.90261 26.62799,-8.29944 6.20497,0.93071 12.3037,4.75295 14.23722,10.98485 0.83436,2.31657 1.31202,4.77192 1.37314,7.23437 z"
+       style="fill:#777676;fill-opacity:1;stroke:none;stroke-width:0.45563355;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m -376.09442,-424.28111 v 19.07031 c 3.9424,2.29025 8.7472,2.19402 13.17018,2.04186 2.69479,-0.21792 5.50177,-0.53766 7.89978,-1.87687 v -22.58323 c 0,-7.77032 -7.97863,-14.96606 -15.59504,-18.17586 -8.71239,-3.42667 -18.55021,-3.13572 -27.22843,0.11619 -5.97468,2.35219 -10.96222,7.55799 -12.40666,13.88188 -0.67522,3.8378 0.46171,9.16064 2.15231,13.36158 0.66508,1.57453 2.40545,0.83677 1.97051,-0.78641 -1.06145,-4.08949 -1.47817,-8.32865 1.34403,-11.78815 4.17135,-5.22186 11.86468,-6.72703 18.08891,-5.63797 4.21515,0.63225 8.35813,3.22877 9.67161,7.46222 0.5668,1.57369 0.9328,3.46276 0.9328,4.91445 z"
        sodipodi:nodetypes="cccccccccccccc"
-       inkscape:label="processor" />
+       inkscape:label="processor"
+       inkscape:connector-curvature="0" />
   </g>
 </svg>
