@@ -4,7 +4,7 @@ Hand-made adaptive icons for a small selection of Android apps.
 
 ## the icons
 
-<img src="png/com.cvs.launchers.cvs.png" width=209 title="CVS Pharmacy" /><img src="png/org.fdroid.fdroid.png" width=209 title="F-Droid" /><img src="png/com.delta.mobile.android.png" width=209 title="Fly Delta" /><img src="png/ml.docilealligator.infinityforreddit.png" width=209 title="Infinity for Reddit" /><img src="png/org.kde.kdeconnect_tp.png" width=209 title="KDE Connect" /><img src="png/com.newegg.app.png" width=209 title="Newegg" /><img src="png/com.nintendo.znca.png" width=209 title="Nintendo Switch Online" /><img src="png/com.cochlear.clientremote.png" width=209 title="Nucleus Smart" /><img src="png/com.aaronjwood.portauthority.png" width=209 title="Port Authority" /><img src="png/com.privacy.pay.png" width=209 title="Privacy.com" /><img src="png/com.tacobell.ordering.png" width=209 title="Taco Bell" /><img src="png/de.j4velin.wallpaperChanger.png" width=209 title="Wallpaper Changer" /><img src="png/com.xfinity.digitalhome.png" width=209 title="Xfinity Home" />
+*nicer preview image coming soon...*
 
 ## why?
 
