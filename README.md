@@ -30,8 +30,6 @@ If an app's current icon doesn't follow these then it's probably a good candidat
 
 ## to do
 
-- [x] Finish preview image generator  
-      6- or 8-wide grid on a nice background
 - [ ] Package it into an APK that you can install on your phone
 
 ## license
