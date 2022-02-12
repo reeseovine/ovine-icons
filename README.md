@@ -2,9 +2,7 @@
 
 Hand-made adaptive icons for a small selection of Android apps.
 
-## the icons
-
-*nicer preview image coming soon...*
+![icon preview image](preview.png)
 
 ## why?
 
@@ -12,21 +10,15 @@ I like my app icons to all be circular in the app drawer. Sometimes they don't h
 
 ## notes
 
-I'm planning to turn this into an installable icon pack, though I have very little experience with Android development so any help would be appreciated.
+I would like to turn this into an installable icon pack but I'm not an Android developer and I have no idea what I'm doing. Please help if you can!
 
 Feel free to open an issue if you want me to make an icon and I may or may not decide to.
-
-## to do
-
-- [ ] Finish preview image generator  
-      6- or 8-wide grid on a nice background
-- [ ] Write XML generator (https://developer.android.com/guide/practices/ui_guidelines/icon_design_adaptive.html#creating_adaptive_icons_in_xml)
 
 ## contributing
 
 Feel free to submit an icon through a pull request if you'd like! I don't stick to any specific design language but I try to follow these personal rules to keep them feeling cohesive:
 - SVG format vector drawing.
-- Follow [Google's adaptive icon guidelines](https://developer.android.com/google-play/resources/icon-design-specifications) and use the included `adaptive_template.svg` for scale and position.
+- Follow [Google's adaptive icon guidelines](https://developer.android.com/google-play/resources/icon-design-specifications) and use the included `adaptive_template.svg` for scale and position. Use two layers: one for the background and one for the foreground.
 - Use vector logo or redraw it as a vector. (NO EMBEDDED RASTER IMAGES PLS)
 - If the source logo or icon looks too "busy", simplify it by reducing it to the essentials.
 - No letters or text unless the letter is the logo (NOT the wordmark). (e.g. Facebook's 'f')
@@ -35,6 +27,12 @@ Feel free to submit an icon through a pull request if you'd like! I don't stick 
 - All colors should be sourced from the original icon, but exceptions can be made.
 
 If an app's current icon doesn't follow these then it's probably a good candidate for this icon pack.
+
+## to do
+
+- [x] Finish preview image generator  
+      6- or 8-wide grid on a nice background
+- [ ] Package it into an APK that you can install on your phone
 
 ## license
 

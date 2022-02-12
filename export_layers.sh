@@ -12,7 +12,7 @@ for icon in svg/*.svg; do
 			--export-area-page \
 			--export-id-only \
 			--export-id=$layer \
-			--export-png="./png/${icon_name}/${layer}.png" \
+			--export-png="png/${icon_name}/${layer}.png" \
 			$icon
 	done
 done
