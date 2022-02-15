@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-mkdir -p previews/{composites,circular}
+mkdir -p previews/composites previews/circular
 for icon in svg/*.svg; do
 	icon_name=$(echo $icon | sed -Ee 's/.*\/(.*)\.svg/\1/')
 
@@ -28,4 +28,5 @@ inkscape \
 #      128px and with -8px spacing on each side, and give the whole thing a transparent background.
 #   2) Add a 16px transparent border around the grid to simulate padding.
 #   3) Place this on top of the background image I made and crop it to 928px by 256px.
-montage $(find previews/circular/ -name '*.png' | sort) -tile 8x -geometry 128x128-8-8 -background '#00000000' png:- | convert - -bordercolor '#00000000' -border 16x16 png:- | convert previews/background.png - -composite -extent 928x256 preview.png
+#      TODO: Dynamically resize based on previous step's size
+montage $(find previews/circular/ -name '*.png' | sort) -tile 8x -geometry 128x128-8-8 -background '#00000000' png:- | convert - -bordercolor '#00000000' -border 16x16 png:- | convert previews/background.png - -composite -extent 928x368 preview.png

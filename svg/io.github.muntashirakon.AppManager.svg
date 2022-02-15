@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   width="108"
+   height="108"
+   viewBox="0 0 108 108"
+   id="svg4"
+   sodipodi:docname="io.github.muntashirakon.AppManager.svg"
+   inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)">
+  <metadata
+     id="metadata10">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs8" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="640"
+     inkscape:window-height="480"
+     id="namedview6"
+     showgrid="false"
+     inkscape:zoom="8.6694238"
+     inkscape:cx="46.725639"
+     inkscape:cy="56.020865"
+     inkscape:current-layer="layer2" />
+  <g
+     inkscape:groupmode="layer"
+     id="layer1"
+     inkscape:label="Background">
+    <rect
+       style="opacity:1;fill:#212021;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.16755748;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect834"
+       width="108"
+       height="108"
+       x="0"
+       y="0" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="Foreground">
+    <path
+       inkscape:connector-curvature="0"
+       d="m 66.752421,54 c 0,0.558678 -0.04858,1.117355 -0.121451,1.651743 l 3.594968,2.817677 c 0.315774,0.267193 0.412935,0.70442 0.194323,1.093065 l -3.400647,5.878259 c -0.218613,0.364354 -0.655838,0.510096 -1.044483,0.364354 l -4.226517,-1.700323 c -0.874452,0.680129 -1.846065,1.238807 -2.890549,1.676033 l -0.607258,4.49371 c -0.07287,0.412935 -0.437226,0.72871 -0.850161,0.72871 h -6.801292 c -0.412935,0 -0.77729,-0.315775 -0.850161,-0.72871 l -0.607258,-4.49371 c -1.068774,-0.437226 -2.016097,-0.995904 -2.890549,-1.676033 l -4.226517,1.700323 c -0.388645,0.145742 -0.82587,0 -1.044483,-0.364354 L 37.579739,59.562485 C 37.361127,59.17384 37.458288,58.736613 37.774062,58.46942 L 41.36903,55.651743 C 41.29616,55.117355 41.247579,54.558678 41.247579,54 c 0,-0.558678 0.04858,-1.117355 0.121451,-1.651743 L 37.774062,49.53058 c -0.315774,-0.267193 -0.412935,-0.72871 -0.194323,-1.093065 l 3.400647,-5.878259 c 0.218613,-0.388645 0.655838,-0.534387 1.044483,-0.388645 l 4.226517,1.724614 c 0.874452,-0.680129 1.821775,-1.263097 2.890549,-1.676033 l 0.607258,-4.518 c 0.07287,-0.388645 0.437226,-0.70442 0.850161,-0.70442 h 6.801292 c 0.412935,0 0.77729,0.315775 0.850161,0.70442 l 0.607258,4.518 c 1.044484,0.412936 2.016097,0.995904 2.890549,1.676033 l 4.226517,-1.724614 c 0.388645,-0.145742 0.82587,0 1.044483,0.388645 l 3.400647,5.878259 c 0.218612,0.364355 0.121451,0.825872 -0.194323,1.093065 L 66.63097,52.348257 C 66.70384,52.882645 66.752421,53.441322 66.752421,54 M 71.003228,32.138707 H 36.996772 c -2.696226,0 -4.858065,2.161839 -4.858065,4.858065 v 34.006456 a 4.8580651,4.8580651 0 0 0 4.858065,4.858065 h 34.006456 a 4.8580651,4.8580651 0 0 0 4.858065,-4.858065 V 36.996772 c 0,-2.696226 -2.186129,-4.858065 -4.858065,-4.858065 M 54,49.141935 c -2.696226,0 -4.858065,2.161839 -4.858065,4.858065 A 4.8580651,4.8580651 0 0 0 54,58.858065 4.8580651,4.8580651 0 0 0 58.858065,54 c 0,-2.696226 -2.186129,-4.858065 -4.858065,-4.858065 z"
+       id="path2"
+       style="fill:#dcaf74;fill-opacity:1;stroke-width:2.42903256"
+       inkscape:label="cog-box" />
+  </g>
+</svg>
