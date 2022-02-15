@@ -91,7 +91,7 @@
   </metadata>
   <g
      inkscape:groupmode="layer"
-     id="layer7"
+     id="background"
      inkscape:label="Background">
     <rect
        style="display:inline;fill:url(#linearGradient10699);fill-opacity:1;stroke-width:0.0264583;stroke-linecap:round;stroke-linejoin:round"
@@ -105,7 +105,7 @@
   <g
      inkscape:label="Foreground"
      inkscape:groupmode="layer"
-     id="layer1"
+     id="foreground"
      transform="translate(449.41339,493.41072)">
     <g
        id="g251"

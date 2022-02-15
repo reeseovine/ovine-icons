@@ -2,17 +2,16 @@
 
 for icon in svg/*.svg; do
 	icon_name=$(echo $icon | sed -Ee 's/.*\/(.*)\.svg/\1/')
-	layers=($(inkscape --query-all $icon | grep layer | awk -F, '{print $1}'))
+	mkdir -p "build/layers/${icon_name}"
 
-	mkdir -p "png/${icon_name}"
-
+	layers=(foreground background)
 	for layer in "${layers[@]}"; do
 		inkscape \
-			--export-width=512 --export-height=512 \
+			--export-width=108 --export-height=108 \
 			--export-area-page \
 			--export-id-only \
-			--export-id=$layer \
-			--export-png="png/${icon_name}/${layer}.png" \
-			$icon
+			--export-id="$layer" \
+			--export-plain-svg="build/layers/${icon_name}/${layer}.svg" \
+			"$icon"
 	done
 done

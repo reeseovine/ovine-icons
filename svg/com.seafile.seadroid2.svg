@@ -217,7 +217,7 @@
   </metadata>
   <g
      inkscape:groupmode="layer"
-     id="layer6"
+     id="background"
      inkscape:label="Background">
     <rect
        style="fill:url(#linearGradient1584);fill-opacity:1;stroke:none;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
@@ -231,7 +231,7 @@
   <g
      inkscape:label="Foreground"
      inkscape:groupmode="layer"
-     id="layer1"
+     id="foreground"
      transform="translate(449.41339,493.41072)"
      style="display:inline">
     <path

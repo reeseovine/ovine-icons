@@ -315,7 +315,7 @@
   </metadata>
   <g
      inkscape:groupmode="layer"
-     id="layer3"
+     id="background"
      inkscape:label="Background">
     <rect
        style="opacity:1;fill:#8bc34a;fill-opacity:1;stroke:none;stroke-width:27.7799;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
@@ -329,7 +329,7 @@
   <g
      inkscape:label="Foreground"
      inkscape:groupmode="layer"
-     id="layer1"
+     id="foreground"
      transform="translate(449.41339,493.41072)">
     <path
        inkscape:connector-curvature="0"

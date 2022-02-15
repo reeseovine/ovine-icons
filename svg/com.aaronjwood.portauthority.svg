@@ -220,7 +220,7 @@
   </metadata>
   <g
      inkscape:groupmode="layer"
-     id="layer2"
+     id="background"
      inkscape:label="Background"
      style="display:inline">
     <rect
@@ -235,7 +235,7 @@
   <g
      inkscape:label="Foreground"
      inkscape:groupmode="layer"
-     id="layer1"
+     id="foreground"
      transform="translate(449.41339,493.41072)">
     <g
        id="g1009"

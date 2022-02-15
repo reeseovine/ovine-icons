@@ -10,7 +10,7 @@
    viewBox="0 0 108 108"
    version="1.1"
    id="svg1214"
-   sodipodi:docname="com.facebook.orca.svg"
+   sodipodi:docname="com.facebook.mlite.svg"
    width="108"
    height="108"
    inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)">
@@ -22,7 +22,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </svg:metadata>
@@ -44,19 +44,19 @@
          style="stop-color:#09f"
          offset="0" />
       <svg:stop
-         offset="0.17299969"
+         offset="0.28647855"
          style="stop-color:#0099ff;stop-opacity:1"
          id="stop1325" />
       <svg:stop
          id="stop1317"
          style="stop-color:#a033ff"
-         offset="0.46816435" />
+         offset="0.48985884" />
       <svg:stop
          id="stop1319"
          style="stop-color:#ff5280"
-         offset="0.68639266" />
+         offset="0.64022237" />
       <svg:stop
-         offset="0.75930715"
+         offset="0.71313685"
          style="stop-color:#ff7061;stop-opacity:1"
          id="stop1327" />
       <svg:stop
@@ -90,9 +90,9 @@
      id="namedview1216"
      showgrid="false"
      inkscape:zoom="8.3226468"
-     inkscape:cx="67.813764"
-     inkscape:cy="42.686389"
-     inkscape:current-layer="layer6" />
+     inkscape:cx="44.383718"
+     inkscape:cy="47.492552"
+     inkscape:current-layer="layer8" />
   <svg:radialGradient
      id="a"
      cx="101.9"
@@ -138,10 +138,11 @@
      inkscape:label="Foreground"
      transform="translate(0,-692)">
     <svg:path
-       d="m 34.645267,754.1772 9.466817,-15.01801 a 4.8341199,4.8341199 0 0 1 6.99336,-1.28909 l 7.53317,5.64786 a 1.933648,1.933648 0 0 0 2.328436,-0.008 l 10.167765,-7.71847 c 1.353553,-1.03129 3.126064,0.5962 2.223695,2.03838 l -9.474875,15.00993 a 4.8341199,4.8341199 0 0 1 -6.993361,1.28911 l -7.533169,-5.64787 a 1.933648,1.933648 0 0 0 -2.328434,0.008 l -10.167766,7.71848 c -1.353553,1.03127 -3.126064,-0.58816 -2.215638,-2.03033 z"
-       id="path1212"
-       inkscape:connector-curvature="0"
-       style="display:inline;fill:#ffffff;stroke-width:0.08056866"
-       inkscape:label="bolt" />
+       style="display:inline;opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.98213798;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       clip-path="none"
+       d="M 0,0 V 108 H 108 V 0 Z m 71.919922,43.472656 c 1.139039,-0.109066 2.172628,1.185651 1.439453,2.357422 l -9.476563,15.009766 a 4.8341199,4.8341199 0 0 1 -6.992187,1.289062 l -7.533203,-5.648437 a 1.933648,1.933648 0 0 0 -2.328125,0.0078 l -10.167969,7.71875 c -1.353553,1.03127 -3.127223,-0.587127 -2.216797,-2.029297 l 9.466797,-15.017578 a 4.8341199,4.8341199 0 0 1 6.994141,-1.291015 l 7.533203,5.648437 a 1.933648,1.933648 0 0 0 2.328125,-0.0078 l 10.167969,-7.71875 c 0.253791,-0.193367 0.522301,-0.293191 0.785156,-0.31836 z"
+       transform="translate(0,692)"
+       id="rect1295-7"
+       inkscape:connector-curvature="0" />
   </svg:g>
 </svg:svg>

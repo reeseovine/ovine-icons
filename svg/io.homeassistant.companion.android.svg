@@ -45,20 +45,21 @@
      inkscape:cx="79.623334"
      inkscape:cy="50.946369"
      inkscape:current-layer="svg1162" />
-  <path
-     d="M 0,0 H 108 V 108 H 0 Z"
-     id="path1156"
-     inkscape:connector-curvature="0"
-     style="fill:#41bdf5;stroke:none;stroke-width:0.21600001"
-     clip-path="none" />
   <g
      inkscape:groupmode="layer"
-     id="layer3"
+     id="background"
      inkscape:label="Background"
-     style="display:inline" />
+     style="display:inline">
+	  <path
+	     d="M 0,0 H 108 V 108 H 0 Z"
+	     id="path1156"
+	     inkscape:connector-curvature="0"
+	     style="fill:#41bdf5;stroke:none;stroke-width:0.21600001"
+	     clip-path="none" />
+	 </g>
   <g
      inkscape:groupmode="layer"
-     id="layer4"
+     id="foreground"
      inkscape:label="Foreground"
      style="display:inline">
     <path

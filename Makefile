@@ -1,7 +1,7 @@
 all: clean layers preview
 
 clean:
-	rm -rf png/ previews/circular previews/composites previews/background.png
+	rm -rf build
 
 layers:
 	bash export_layers.sh

@@ -194,7 +194,7 @@
   </metadata>
   <g
      inkscape:groupmode="layer"
-     id="layer8"
+     id="background"
      inkscape:label="Background">
     <rect
        style="fill:#68298c;fill-opacity:1;stroke-width:0.0264583;stroke-linecap:round;stroke-linejoin:round"
@@ -208,7 +208,7 @@
   <g
      inkscape:label="Foreground"
      inkscape:groupmode="layer"
-     id="layer1"
+     id="foreground"
      transform="translate(449.41339,493.41072)">
     <g
        id="g3735"

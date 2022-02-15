@@ -65,7 +65,7 @@
    inkscape:current-layer="layer1" />
 <g
    inkscape:groupmode="layer"
-   id="layer2"
+   id="background"
    inkscape:label="Background"><rect
      style="opacity:1;fill:url(#linearGradient849-7);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.3983101;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
      id="rect841-5"
@@ -76,7 +76,7 @@
      transform="rotate(90)" /></g>
 <g
    inkscape:groupmode="layer"
-   id="layer1"
+   id="foreground"
    inkscape:label="Foreground"
    transform="translate(0,-132.10001)"><path
      id="Path-3"

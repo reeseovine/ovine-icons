@@ -2,11 +2,11 @@
 
 Hand-made adaptive icons for a small selection of Android apps.
 
-![icon preview image](preview.png)
+![icon preview image](extra/preview.png)
 
 ## why?
 
-I like my app icons to all be circular in the app drawer. Sometimes they don't have circular/adaptive icons or sometimes it just looks ugly. These icons are mostly meant to supplement apps that don't already have adaptive icons; not every app needs a new icon.
+I like my app icons to all be circular in the app drawer. Sometimes they don't have circular/adaptive icons or sometimes it just looks ugly or not positioned/scaled right to me. These icons are mostly meant to supplement apps that don't already have adaptive icons; not every app needs a new icon.
 
 ## notes
 
@@ -30,8 +30,8 @@ If an app's current icon doesn't follow these then it's probably a good candidat
 
 ## to do
 
-- [ ] Update layer IDs so that the exported files are named `foreground.png` and `background.png`
-- [ ] Fix layers on Home Assistant and Popeyes icons
+- [x] Update layer IDs so that the exported files are named `foreground.*` and `background.*`
+- [x] Fix layers on Home Assistant and Popeyes icons
 - [ ] Package it into an APK that you can install on your phone
 - [ ] Due to weird Inkscape behavior, make sure things that are supposed to be white are fully white
 

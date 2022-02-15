@@ -243,7 +243,7 @@
   </metadata>
   <g
      inkscape:groupmode="layer"
-     id="layer11"
+     id="background"
      inkscape:label="Background">
     <rect
        style="fill:#071935;fill-opacity:1;stroke-width:1.62600005;stroke-linecap:round;stroke-linejoin:round"
@@ -373,7 +373,7 @@
   </g>
   <g
      inkscape:label="Foreground"
-     id="layer1"
+     id="foreground"
      transform="matrix(0.72610569,0,0,0.72610569,346.09445,377.40982)"
      style="display:inline">
     <g

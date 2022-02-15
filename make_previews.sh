@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-mkdir -p previews/composites previews/circular
+mkdir -p "build/composites" "build/circular"
 for icon in svg/*.svg; do
 	icon_name=$(echo $icon | sed -Ee 's/.*\/(.*)\.svg/\1/')
 
@@ -8,11 +8,11 @@ for icon in svg/*.svg; do
 	inkscape \
 		--export-width=512 --export-height=512 \
 		--export-area-page \
-		--export-png="previews/composites/${icon_name}.png" \
+		--export-png="build/composites/${icon_name}.png" \
 		$icon
 
 	# Generate circular icon with drop shadow
-	convert "previews/composites/${icon_name}.png" "previews/circular_mask.png" -alpha off -compose copy-opacity -composite png:- | convert - \( +clone -background black -shadow 20x8+0+4 \) +swap -background none -layers merge +repage "previews/circular/${icon_name}.png"
+	convert "build/composites/${icon_name}.png" "extra/circular_mask.png" -alpha off -compose copy-opacity -composite png:- | convert - \( +clone -background black -shadow 20x8+0+4 \) +swap -background none -layers merge +repage "build/circular/${icon_name}.png"
 done
 
 
@@ -20,8 +20,8 @@ done
 inkscape \
 	--export-width=928 \
 	--export-area-page \
-	--export-png="previews/background.png" \
-	previews/background.svg
+	--export-png="extra/background.png" \
+	"extra/background.svg"
 
 # Generate full preview. Does the following steps:
 #   1) Take the circular icons and arrange them on an 8-wide grid, each one resized to 128px by
@@ -29,4 +29,4 @@ inkscape \
 #   2) Add a 16px transparent border around the grid to simulate padding.
 #   3) Place this on top of the background image I made and crop it to 928px by 256px.
 #      TODO: Dynamically resize based on previous step's size
-montage $(find previews/circular/ -name '*.png' | sort) -tile 8x -geometry 128x128-8-8 -background '#00000000' png:- | convert - -bordercolor '#00000000' -border 16x16 png:- | convert previews/background.png - -composite -extent 928x368 preview.png
+montage $(find "build/circular/" -name '*.png' | sort) -tile 8x -geometry 128x128-8-8 -background '#00000000' png:- | convert - -bordercolor '#00000000' -border 16x16 png:- | convert "extra/background.png" - -composite -extent 928x368 "extra/preview.png"
