@@ -30,10 +30,10 @@ If an app's current icon doesn't follow these then it's probably a good candidat
 
 ## to do
 
+- [ ] Package it into an APK that you can install on your phone
+- [x] Due to weird Inkscape behavior, make sure things that are supposed to be white are fully white
 - [x] Update layer IDs so that the exported files are named `foreground.*` and `background.*`
 - [x] Fix layers on Home Assistant and Popeyes icons
-- [ ] Package it into an APK that you can install on your phone
-- [ ] Due to weird Inkscape behavior, make sure things that are supposed to be white are fully white
 
 ## license
 

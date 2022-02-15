@@ -18,182 +18,7 @@
    inkscape:export-xdpi="28.659931"
    inkscape:export-ydpi="28.659931">
   <defs
-     id="defs2">
-    <clipPath
-       clipPathUnits="userSpaceOnUse"
-       id="clipPath946">
-      <circle
-         style="display:inline;fill:#06b0c1;fill-opacity:1;stroke:none;stroke-width:0.574686;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-         id="circle948"
-         cy="217.2594"
-         cx="356.6033"
-         r="7.5"
-         inkscape:label="body"
-         transform="rotate(13.197607)" />
-    </clipPath>
-    <clipPath
-       clipPathUnits="userSpaceOnUse"
-       id="clipPath950">
-      <circle
-         style="display:inline;fill:#06b0c1;fill-opacity:1;stroke:none;stroke-width:0.574686;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-         id="circle952"
-         cy="217.2594"
-         cx="356.6033"
-         r="7.5"
-         inkscape:label="body"
-         transform="rotate(13.197607)" />
-    </clipPath>
-    <clipPath
-       clipPathUnits="userSpaceOnUse"
-       id="clipPath954">
-      <circle
-         style="display:inline;fill:#06b0c1;fill-opacity:1;stroke:none;stroke-width:0.574686;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-         id="circle956"
-         cy="217.2594"
-         cx="356.6033"
-         r="7.5"
-         inkscape:label="body"
-         transform="rotate(13.197607)" />
-    </clipPath>
-    <clipPath
-       clipPathUnits="userSpaceOnUse"
-       id="clipPath958">
-      <circle
-         style="display:inline;fill:#06b0c1;fill-opacity:1;stroke:none;stroke-width:0.574686;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-         id="circle960"
-         cy="217.2594"
-         cx="356.6033"
-         r="7.5"
-         inkscape:label="body"
-         transform="rotate(13.197607)" />
-    </clipPath>
-    <clipPath
-       clipPathUnits="userSpaceOnUse"
-       id="clipPath937">
-      <path
-         d="M 0,807 H 712 V 0 H 0 Z"
-         id="path935" />
-    </clipPath>
-    <mask
-       maskUnits="userSpaceOnUse"
-       x="0"
-       y="0"
-       width="1"
-       height="1"
-       id="mask951">
-      <g
-         id="g967">
-        <g
-           clip-path="url(#clipPath945)"
-           id="g965">
-          <path
-             d="m 163.75,548.25 h 384.5 v -384.5 h -384.5 z"
-             style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             id="path953" />
-          <g
-             id="g963">
-            <g
-               id="g955" />
-            <g
-               id="g961">
-              <g
-                 clip-path="url(#clipPath949)"
-                 id="g959">
-                <path
-                   d="M 99.917,612.083 H 612.586 V 99.414 H 99.917 Z"
-                   style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
-                   id="path957" />
-              </g>
-            </g>
-          </g>
-        </g>
-      </g>
-    </mask>
-    <clipPath
-       clipPathUnits="userSpaceOnUse"
-       id="clipPath945">
-      <path
-         d="m 163.75,548.25 h 384.5 v -384.5 h -384.5 z"
-         id="path943" />
-    </clipPath>
-    <clipPath
-       clipPathUnits="userSpaceOnUse"
-       id="clipPath949">
-      <path
-         d="m 163.75,548.25 h 384.5 v -384.5 h -384.5 z"
-         id="path947" />
-    </clipPath>
-    <clipPath
-       clipPathUnits="userSpaceOnUse"
-       id="clipPath975">
-      <path
-         d="m 163.75,548.25 h 384.5 v -384.5 h -384.5 z"
-         id="path973" />
-    </clipPath>
-    <clipPath
-       clipPathUnits="userSpaceOnUse"
-       id="clipPath979">
-      <path
-         d="M 164,548 H 548 V 164 H 164 Z"
-         id="path977" />
-    </clipPath>
-    <clipPath
-       clipPathUnits="userSpaceOnUse"
-       id="clipPath983">
-      <path
-         d="M 164.066,547.968 H 547.999 V 163.956 H 164.066 Z"
-         id="path981" />
-    </clipPath>
-    <clipPath
-       clipPathUnits="userSpaceOnUse"
-       id="clipPath987">
-      <path
-         d="M 164.02,547.93 H 547.835 V 164.176 H 164.02 Z"
-         id="path985" />
-    </clipPath>
-    <clipPath
-       clipPathUnits="userSpaceOnUse"
-       id="clipPath991">
-      <path
-         d="m 299.75,548.25 h 0.5 v -384.5 h -0.5 z"
-         id="path989" />
-    </clipPath>
-    <clipPath
-       clipPathUnits="userSpaceOnUse"
-       id="clipPath995">
-      <path
-         d="m 355.75,548.25 h 0.5 v -384.5 h -0.5 z"
-         id="path993" />
-    </clipPath>
-    <clipPath
-       clipPathUnits="userSpaceOnUse"
-       id="clipPath999">
-      <path
-         d="m 411.83,548.25 h 0.5 v -384.5 h -0.5 z"
-         id="path997" />
-    </clipPath>
-    <clipPath
-       clipPathUnits="userSpaceOnUse"
-       id="clipPath1003">
-      <path
-         d="m 163.9,412.1 h 383.933 v -0.2 H 163.9 Z"
-         id="path1001" />
-    </clipPath>
-    <clipPath
-       clipPathUnits="userSpaceOnUse"
-       id="clipPath1007">
-      <path
-         d="m 163.9,356.1 h 383.933 v -0.2 H 163.9 Z"
-         id="path1005" />
-    </clipPath>
-    <clipPath
-       clipPathUnits="userSpaceOnUse"
-       id="clipPath1011">
-      <path
-         d="m 163.75,300.25 h 384.233 v -0.5 H 163.75 Z"
-         id="path1009" />
-    </clipPath>
-  </defs>
+     id="defs2" />
   <sodipodi:namedview
      id="base"
      pagecolor="#ffffff"
@@ -202,10 +27,10 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="2.9122958"
-     inkscape:cx="169.65692"
-     inkscape:cy="261.98919"
+     inkscape:cx="186.67652"
+     inkscape:cy="262.44228"
      inkscape:document-units="mm"
-     inkscape:current-layer="layer11"
+     inkscape:current-layer="foreground"
      showgrid="false"
      fit-margin-top="0"
      fit-margin-left="0"
@@ -257,7 +82,7 @@
        id="g1032"
        inkscape:label="stars"
        style="display:inline;fill:#fcd372;fill-opacity:1"
-       transform="matrix(0.70155922,0,0,0.70155922,-211.22592,-105.66105)">
+       transform="matrix(0.86549267,0,0,0.86549267,-276.62392,-146.55948)">
       <circle
          style="opacity:1;fill:#fcd372;fill-opacity:1;stroke-width:0.52899998;stroke-linecap:round"
          id="path983"
@@ -337,8 +162,8 @@
       <circle
          transform="rotate(-6.1866467)"
          r="1.2941518"
-         cy="286.55319"
-         cx="413.05008"
+         cy="281.58035"
+         cx="412.46729"
          id="circle9409"
          style="display:inline;opacity:1;fill:#fcd372;fill-opacity:1;stroke-width:0.52899998;stroke-linecap:round" />
       <circle
@@ -351,8 +176,8 @@
       <circle
          transform="rotate(-6.1866467)"
          r="1.2941518"
-         cy="295.09326"
-         cx="380.08124"
+         cy="304.95554"
+         cx="385.34726"
          id="circle9413"
          style="display:inline;opacity:1;fill:#fcd372;fill-opacity:1;stroke-width:0.52899998;stroke-linecap:round" />
       <circle
@@ -364,7 +189,7 @@
          transform="rotate(-6.1866467)" />
       <path
          inkscape:connector-curvature="0"
-         d="m 360.15601,269.6136 -1.16933,0.91973 0.20012,1.47415 -1.38117,-0.5528 -1.17661,0.91037 -0.21184,-1.47252 -1.37671,-0.56378 1.16932,-0.91973 -0.20011,-1.47416 1.38116,0.5528 1.17662,-0.91037 0.21183,1.47252 z"
+         d="m 363.41007,269.50863 -1.16933,0.91973 0.20012,1.47415 -1.38117,-0.5528 -1.17661,0.91037 -0.21184,-1.47252 -1.37671,-0.56378 1.16932,-0.91973 -0.20011,-1.47416 1.38116,0.5528 1.17662,-0.91037 0.21183,1.47252 z"
          inkscape:transform-center-y="-0.73246099"
          inkscape:transform-center-x="0.54136132"
          style="opacity:1;fill:#fcd372;fill-opacity:1;stroke-width:0.45513749;stroke-linecap:round"
@@ -375,11 +200,12 @@
      inkscape:label="Foreground"
      id="foreground"
      transform="matrix(0.72610569,0,0,0.72610569,346.09445,377.40982)"
-     style="display:inline">
+     style="display:inline"
+     inkscape:groupmode="layer">
     <g
        id="g9399"
        inkscape:label="planet"
-       transform="matrix(0.88972252,-0.15064452,0.15064452,0.88972252,23.065118,-104.03283)"
+       transform="matrix(1.2997272,-0.220065,0.220065,1.2997272,208.68759,43.24766)"
        style="display:inline">
       <circle
          inkscape:label="body"

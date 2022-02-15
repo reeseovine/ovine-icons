@@ -62,7 +62,7 @@
        x2="-340.81833"
        y2="-384.81564"
        gradientUnits="userSpaceOnUse"
-       gradientTransform="translate(449.38412,493.38144)" />
+       gradientTransform="matrix(1.0002161,0,0,1.0002161,449.48123,493.48806)" />
   </defs>
   <sodipodi:namedview
      id="base"
@@ -72,10 +72,10 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="2.3853636"
-     inkscape:cx="183.70333"
-     inkscape:cy="222.50275"
+     inkscape:cx="119.15259"
+     inkscape:cy="253.57081"
      inkscape:document-units="mm"
-     inkscape:current-layer="layer1"
+     inkscape:current-layer="background"
      showgrid="false"
      fit-margin-top="0"
      fit-margin-left="0"
@@ -116,13 +116,14 @@
      inkscape:label="Background"
      style="display:inline">
     <rect
-       style="fill:url(#linearGradient6502);fill-opacity:1;stroke-width:0.0264583;stroke-linecap:round;stroke-linejoin:round"
+       style="fill:url(#linearGradient6502);fill-opacity:1;stroke-width:0.02646402;stroke-linecap:round;stroke-linejoin:round"
        id="rect6494"
-       width="135.43739"
-       height="135.43739"
+       width="135.46666"
+       height="135.46666"
        x="0"
-       y="-3.469447e-18"
-       ry="0.79374999" />
+       y="1.2420191e-10"
+       ry="0.79374999"
+       rx="0.79374999" />
   </g>
   <g
      inkscape:label="Foreground"
@@ -134,7 +135,7 @@
        id="g1088"
        inkscape:label="home"
        style="display:inline"
-       transform="matrix(0.07661457,0,0,0.07661457,-382.03293,-425.03955)">
+       transform="matrix(0.0904544,0,0,0.0904544,-382.09667,-424.63756)">
       <path
          id="rect998"
          style="display:inline;opacity:1;fill:none;stroke:url(#linearGradient1009);stroke-width:61.22409821;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
@@ -148,7 +149,7 @@
          id="g1081"
          inkscape:label="wifi"
          style="display:inline;stroke:#080c18;stroke-opacity:1"
-         transform="matrix(1.3597394,0,0,1.3597394,-2.5652455,33.468516)">
+         transform="matrix(1.3597394,0,0,1.3597394,-2.5652455,26.11103)">
         <path
            id="path1039"
            style="display:inline;opacity:1;fill:none;stroke:#080c18;stroke-width:104.99500275;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"

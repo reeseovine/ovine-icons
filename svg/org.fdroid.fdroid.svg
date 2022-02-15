@@ -26,11 +26,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.9811225"
-     inkscape:cx="119.17738"
-     inkscape:cy="279.97139"
+     inkscape:zoom="0.70043258"
+     inkscape:cx="-28.974202"
+     inkscape:cy="223.76262"
      inkscape:document-units="mm"
-     inkscape:current-layer="layer1"
+     inkscape:current-layer="foreground"
      showgrid="false"
      fit-margin-top="0"
      fit-margin-left="0"
@@ -86,7 +86,7 @@
        id="g3883"
        style="display:inline"
        inkscape:label="droid"
-       transform="matrix(1.0316609,0,0,1.0316609,-406.43992,-1485.6823)">
+       transform="matrix(1.2150183,0,0,1.2150183,-410.8405,-1674.9676)">
       <rect
          style="display:inline;fill:#4797e4;fill-opacity:1;stroke:none;stroke-width:3;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:3;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
          id="rect3873"
@@ -94,8 +94,8 @@
          height="26"
          x="5"
          y="1024.3622"
-         rx="5.1764503"
-         ry="5.1764503"
+         rx="4.3952765"
+         ry="4.3952765"
          inkscape:label="body" />
       <path
          id="path3881"
