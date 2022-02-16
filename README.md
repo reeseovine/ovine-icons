@@ -21,7 +21,7 @@ Feel free to submit an icon through a pull request if you'd like! I don't stick 
 - Follow [Google's adaptive icon guidelines](https://developer.android.com/google-play/resources/icon-design-specifications) and use the included `adaptive_template.svg` for scale and position. Use two layers: one for the background and one for the foreground.
 - Use vector logo or redraw it as a vector. (NO EMBEDDED RASTER IMAGES PLS)
 - If the source logo or icon looks too "busy", simplify it by reducing it to the essentials.
-- No letters or text unless the letter is the logo (NOT the wordmark). (e.g. Facebook's 'f')
+- No letters or text unless it's part of the logo (NOT the wordmark). (e.g. Facebook's 'f')
 - No shadows.
 - Gradients can be used but they should be tasteful and not too flashy.
 - All colors should be sourced from the original icon, but exceptions can be made.
@@ -31,9 +31,8 @@ If an app's current icon doesn't follow these then it's probably a good candidat
 ## to do
 
 - [ ] Package it into an APK that you can install on your phone
-- [x] Due to weird Inkscape behavior, make sure things that are supposed to be white are fully white
-- [x] Update layer IDs so that the exported files are named `foreground.*` and `background.*`
-- [x] Fix layers on Home Assistant and Popeyes icons
+- [ ] Rename SVGs to drawable names
+- [ ] Either get rid of Xfinity Home or make a whole set for all their apps
 
 ## license
 

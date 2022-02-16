@@ -11,7 +11,8 @@ for icon in svg/*.svg; do
 			--export-area-page \
 			--export-id-only \
 			--export-id="$layer" \
-			--export-plain-svg="build/layers/${icon_name}/${layer}.svg" \
+			--export-plain-svg \
+			--export-filename="build/layers/${icon_name}/${layer}.svg" \
 			"$icon"
 	done
 done

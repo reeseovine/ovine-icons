@@ -3,12 +3,14 @@
 mkdir -p "build/composites" "build/circular"
 for icon in svg/*.svg; do
 	icon_name=$(echo $icon | sed -Ee 's/.*\/(.*)\.svg/\1/')
+	if [ "$icon_name" = "xyz.ovine.icons" ]; then continue; fi
 
 	# Export full PNG
 	inkscape \
 		--export-width=512 --export-height=512 \
 		--export-area-page \
-		--export-png="build/composites/${icon_name}.png" \
+		--export-type=png \
+		--export-filename="build/composites/${icon_name}.png" \
 		$icon
 
 	# Generate circular icon with drop shadow
@@ -20,7 +22,8 @@ done
 inkscape \
 	--export-width=928 \
 	--export-area-page \
-	--export-png="extra/background.png" \
+	--export-type=png \
+	--export-filename="extra/background.png" \
 	"extra/background.svg"
 
 # Generate full preview. Does the following steps:
