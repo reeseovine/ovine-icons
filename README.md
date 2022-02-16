@@ -1,4 +1,4 @@
-# app icons
+# ovine icons 🐏
 
 Hand-made adaptive icons for a small selection of Android apps.
 
