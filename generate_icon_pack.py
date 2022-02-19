@@ -1,0 +1,141 @@
+#!/usr/bin/env python3
+
+import csv
+from pathlib import Path
+from typing import NamedTuple
+
+from svg2drawable import svg2drawable
+
+
+#########
+# Setup #
+#########
+
+app_path = Path("../../jahirfiquitiva/Blueprint/app/src/main")
+
+class Icon(NamedTuple):
+	drawable: str
+	package: str
+	activity: str
+
+	def __repr__(self) -> str:
+		return "│ {0:30} │ {1:50} │ {2:70} │".format(self.drawable, self.package, self.activity)
+
+class IconList:
+	def __init__(self, icons=[]):
+		self.icons = icons
+
+	def __repr__(self) -> str:
+		top     = "╭─"+("─"*30)+"─┬─"+("─"*50)+"─┬─"+("─"*70)+"─╮"
+		header  = "│ {0:30} │ {1:50} │ {2:70} │".format("Drawable", "Package ID", "Activity ID")
+		divider = "├─"+("─"*30)+"─┼─"+("─"*50)+"─┼─"+("─"*70)+"─┤"
+		bottom  = "╰─"+("─"*30)+"─┴─"+("─"*50)+"─┴─"+("─"*70)+"─╯"
+		return "\n".join([top, header, divider, *[str(row) for row in self.icons], bottom])
+
+	def query(self, column: str, value: str):
+		results = []
+		for row in self.icons:
+			if getattr(row, column) == value:
+				results.append(row)
+		return IconList(results)
+
+	def get_unique_entries(self, column: str) -> list:
+		names = []
+		for row in self.icons:
+			if getattr(row, column) not in names:
+				names.append(getattr(row, column))
+		return names
+
+
+
+#################
+# File handling #
+#################
+
+# Open `icon_data.tsv` and turn it into a usable format
+def get_from_tsv_file():
+	icons = []
+	with open('icon_data.tsv') as icon_data:
+		r = csv.reader(icon_data, delimiter="\t")
+		for (drawable, package, activity) in r:
+			icons.append(Icon(drawable, package, activity))
+	return IconList(icons)
+	# return IconList(map(Icon._make, csv.reader(open('icon_data.tsv', 'rb'), delimiter="\t")))
+
+def write_file(filename: str, data: str) -> None:
+	with open(filename, 'w') as f:
+		f.write(data)
+		print(f'Successfully wrote {filename}')
+
+
+
+##################
+# XML generators #
+##################
+
+# Generate appfilter.xml
+def xmlgen_appfilter(icons: IconList) -> None:
+	xml = '<?xml version="1.0" encoding="UTF-8"?>\n<resources>\n'
+	for row in icons.icons:
+		xml += f'\t<item component="ComponentInfo{{{row.package}/{row.activity}}}" drawable="{row.drawable}" />\n'
+	xml += '</resources>\n'
+	write_file(app_path / 'assets' / 'appfilter.xml', xml)
+	write_file(app_path / 'res' / 'xml' / 'appfilter.xml', xml)
+
+# Generate appmap.xml
+def xmlgen_appmap(icons: IconList) -> None:
+	xml = '<?xml version="1.0" encoding="UTF-8"?>\n<appmap>\n'
+	for row in icons.icons:
+		xml += f'\t<item class="{row.package}/{row.activity}" name="{row.drawable}" />\n'
+	xml += '</appmap>\n'
+	write_file(app_path / 'res' / 'xml' / 'appmap.xml', xml)
+
+# Generate drawable.xml
+def xmlgen_drawable(icons: IconList) -> None:
+	xml = '<?xml version="1.0" encoding="utf-8"?>\n<resources>\n\t<version>1</version>\n\t<category title="All" />\n'
+	for name in icons.get_unique_entries('drawable'):
+		xml += f'\t<item drawable="{name}" />\n'
+	xml += '</resources>\n'
+	write_file(app_path / 'assets' / 'drawable.xml', xml)
+
+# Generate icon_pack.xml
+def xmlgen_iconpack(icons: IconList) -> None:
+	xml = '<?xml version="1.0" encoding="utf-8"?><!--suppress CheckTagEmptyBody -->\n<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="ExtraTranslation">\n\t<!-- Make sure to put at least 8 icons -->\n\t<string-array name="icons_preview">\n'
+	for name in icons.get_unique_entries('drawable'):
+		xml += f'\t\t<item>{name}</item>\n'
+	xml += '\t</string-array>\n\n\t<!-- These sections below are for your "Previews" section -->\n\t<!-- Make sure the filters names are the same as the other arrays -->\n\t<string-array name="icon_filters">\n\t\t<item>all</item>\n\t</string-array>\n\n\t<string-array name="all">\n'
+	for name in icons.get_unique_entries('drawable'):
+		xml += f'\t\t<item>{name}</item>\n'
+	xml += '\t</string-array>\n</resources>\n'
+	write_file(app_path / 'res' / 'values' / 'icon_pack.xml', xml)
+
+# Generate drawable/*_[background,foreground].xml
+def xmlgen_drawable_layers(icons: IconList) -> None:
+	for name in icons.get_unique_entries('drawable'):
+		for layer in ['background', 'foreground']:
+			with open(Path(__file__).parent / 'build' / 'layers' / name / f'{layer}.svg') as f:
+				xml = svg2drawable(f.read())
+				write_file(app_path / 'res' / 'drawable' / f'{name}_{layer}.xml', xml)
+
+# Generate drawable-anydpi-v26/*.xml
+def xmlgen_drawable_combined(icons: IconList) -> None:
+	for name in icons.get_unique_entries('drawable'):
+		xml = '<?xml version="1.0" encoding="utf-8"?>\n<adaptive-icon xmlns:android="http://schemas.android.com/apk/res/android">\n'
+		xml += f'\t<background android:drawable="@drawable/{name}_background" />\n'
+		xml += f'\t<foreground android:drawable="@drawable/{name}_foreground" />\n'
+		xml += '</adaptive-icon>\n'
+		write_file(app_path / 'res' / 'drawable-anydpi-v26' / f'{name}.xml', xml)
+
+
+
+########
+# Main #
+########
+
+def main():
+	icons = get_from_tsv_file()
+	with open(Path(__file__).parent / 'build' / 'layers' / 'com.delta.mobile.android' / f'foreground.svg') as f:
+		svg2drawable(f.read())
+
+if __name__ == '__main__':
+	main()
