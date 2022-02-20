@@ -31,11 +31,11 @@ If an app's current icon doesn't follow these then it's probably a good candidat
 
 ## to do
 
-- [ ] Rename SVGs to drawable names
-- [ ] Resize SVGs to 108x108
+- [x] Rename SVGs to drawable names
+- [ ] Resize all SVGs to 108x108
 - [ ] Finish SVG->drawable converter
 - [ ] Package it into an APK that you can install on your phone
-- [ ] Either get rid of Xfinity Home or make a whole set for all their apps
+- [x] ~~Either~~ get rid of Xfinity Home ~~or make a whole set for all their apps~~
 
 ## license
 

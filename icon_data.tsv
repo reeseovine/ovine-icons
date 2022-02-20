@@ -32,4 +32,4 @@ taco_bell	com.tacobell.ordering	com.tacobell.global.view.SplashActivity
 telegram	org.telegram.messenger	org.telegram.ui.LaunchActivity
 us_bank	com.usbank.mobilebanking	com.usb.module.environment.ui.SplashActivity
 us_bank	com.usbank.mobilebanking	com.usbank.mobilebanking.USBank
-wallpaper_changer	de.j4velin.wallpaperChanger.svg	de.j4velin.wallpaperChanger.settings.Settings
+wallpaper_changer	de.j4velin.wallpaperChanger	de.j4velin.wallpaperChanger.settings.Settings
