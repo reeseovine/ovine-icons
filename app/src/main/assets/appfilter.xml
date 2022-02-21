@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+	<item component="ComponentInfo{com.cvs.launchers.cvs/com.cvs.launchers.cvs.StartupActivity}" drawable="___cvs_pharmacy" />
+	<item component="ComponentInfo{org.kde.kdeconnect_tp/org.kde.kdeconnect.UserInterface.MainActivity}" drawable="___kde_connect" />
+	<item component="ComponentInfo{org.kde.kdeconnect_tp/org.kde.kdeconnect.UserInterface.MaterialActivity}" drawable="___kde_connect" />
+	<item component="ComponentInfo{security.pEp/com.fsck.k9.pEp.ui.activities.SplashActivity}" drawable="_p__ep" />
+	<item component="ComponentInfo{io.github.muntashirakon.AppManager/io.github.muntashirakon.AppManager.main.MainActivity}" drawable="app_manager" />
+	<item component="ComponentInfo{org.fdroid.fdroid/org.fdroid.fdroid.FDroid}" drawable="f_droid" />
+	<item component="ComponentInfo{org.fdroid.fdroid/org.fdroid.fdroid.views.main.MainActivity}" drawable="f_droid" />
+	<item component="ComponentInfo{com.delta.mobile.android/com.delta.mobile.android.SplashScreen}" drawable="fly_delta" />
+	<item component="ComponentInfo{io.homeassistant.companion.android/io.homeassistant.companion.android.launch.LaunchActivity}" drawable="home_assistant" />
+	<item component="ComponentInfo{io.homeassistant.companion.android.minimal/io.homeassistant.companion.android.launch.LaunchActivity}" drawable="home_assistant" />
+	<item component="ComponentInfo{ml.docilealligator.infinityforreddit/ml.docilealligator.infinityforreddit.activities.MainActivity}" drawable="infinity" />
+	<item component="ComponentInfo{ml.docilealligator.infinityforreddit/ml.docilealligator.infinityforreddit.Activity.MainActivity}" drawable="infinity" />
+	<item component="ComponentInfo{com.topjohnwu.magisk/a.c}" drawable="magisk_manager" />
+	<item component="ComponentInfo{com.topjohnwu.magisk/com.topjohnwu.magisk.core.SplashActivity}" drawable="magisk_manager" />
+	<item component="ComponentInfo{com.topjohnwu.magisk/com.topjohnwu.magisk.MainActivity}" drawable="magisk_manager" />
+	<item component="ComponentInfo{com.topjohnwu.magisk/com.topjohnwu.magisk.NoUIActivity}" drawable="magisk_manager" />
+	<item component="ComponentInfo{com.topjohnwu.magisk/com.topjohnwu.magisk.SplashActivity}" drawable="magisk_manager" />
+	<item component="ComponentInfo{com.topjohnwu.magisk/com.topjohnwu.magisk.ui.MainActivity}" drawable="magisk_manager" />
+	<item component="ComponentInfo{com.facebook.orca/com.facebook.orca.auth.StartScreenActivity}" drawable="messenger" />
+	<item component="ComponentInfo{com.facebook.mlite/com.facebook.mlite.coreui.view.MainActivity}" drawable="messenger_lite" />
+	<item component="ComponentInfo{com.newegg.app/com.newegg.app.MainActivity}" drawable="newegg" />
+	<item component="ComponentInfo{com.nintendo.znca/com.nintendo.coral.ui.boot.BootActivity}" drawable="nintendo_switch_online" />
+	<item component="ComponentInfo{com.nintendo.znca/crc64e1ce91bfba58d316.MainActivity}" drawable="nintendo_switch_online" />
+	<item component="ComponentInfo{com.nintendo.znca/md5e14d8df872e237c80839f608ad2933ea.MainActivity}" drawable="nintendo_switch_online" />
+	<item component="ComponentInfo{com.cochlear.clientremote/com.cochlear.nucleussmart.welcome.ui.activity.SplashActivity}" drawable="nucleus_smart" />
+	<item component="ComponentInfo{com.privacy.pay/com.privacy.pay.MainActivity}" drawable="pay_with_privacy" />
+	<item component="ComponentInfo{com.emn8.mobilem8.nativeapp.popeyes/rbi.android.app.MainActivity}" drawable="popeyes" />
+	<item component="ComponentInfo{com.aaronjwood.portauthority.donate/com.aaronjwood.portauthority.activity.MainActivity}" drawable="port_authority" />
+	<item component="ComponentInfo{com.aaronjwood.portauthority.free/com.aaronjwood.portauthority.activity.MainActivity}" drawable="port_authority" />
+	<item component="ComponentInfo{com.seafile.seadroid2/com.seafile.seadroid2.ui.activity.BrowserActivity}" drawable="seafile" />
+	<item component="ComponentInfo{com.tacobell.ordering/com.tacobell.global.view.SplashActivity}" drawable="taco_bell" />
+	<item component="ComponentInfo{org.telegram.messenger/org.telegram.ui.LaunchActivity}" drawable="telegram" />
+	<item component="ComponentInfo{com.usbank.mobilebanking/com.usb.module.environment.ui.SplashActivity}" drawable="us_bank" />
+	<item component="ComponentInfo{com.usbank.mobilebanking/com.usbank.mobilebanking.USBank}" drawable="us_bank" />
+	<item component="ComponentInfo{de.j4velin.wallpaperChanger/de.j4velin.wallpaperChanger.settings.Settings}" drawable="wallpaper_changer" />
+	<item component="ComponentInfo{com.wireguard.android/com.wireguard.android.activity.MainActivity}" drawable="wire__guard" />
+</resources>

@@ -10,7 +10,7 @@ I like my app icons to all be circular in the app drawer. Sometimes they don't h
 
 ## notes
 
-I would like to turn this into an installable icon pack but I'm not an Android developer and I have no idea what I'm doing. Please help if you can!
+This is now an installable icon pack! Though I'm not an Android developer and I have no idea what I'm doing, so if you spot any issues I may need some help!
 
 Feel free to open an issue if you want me to make an icon and I may or may not decide to.
 
@@ -41,4 +41,5 @@ If an app's current icon doesn't follow these then it's probably a good candidat
 ## license
 
 - The icons themselves are [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).
-- Svg2VectorAndroid was made by [ravibhojwani86](https://github.com/ravibhojwani86/Svg2VectorAndroid). All rights reserved.
+- [Blueprint by jahirfiquitiva](https://github.com/jahirfiquitiva/Blueprint) is also [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).
+- [Svg2VectorAndroid by ravibhojwani86](https://github.com/ravibhojwani86/Svg2VectorAndroid) has no license, so all rights reserved.

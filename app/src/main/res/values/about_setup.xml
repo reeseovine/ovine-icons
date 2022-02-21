@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="ExtraTranslation,MissingTranslation">
+    <string-array name="credits_photos" formatted="false" tools:ignore="TypographyDashes">
+        <item>https://avatars.githubusercontent.com/u/1340784?ext=.png</item>
+    </string-array>
+
+    <string-array name="credits_titles">
+        <item>Reese Sapphire</item>
+    </string-array>
+
+    <string-array name="credits_descriptions">
+        <item>I\'m a programmer, graphic designer, and open-source enthusiast from Minnesota.</item>
+    </string-array>
+
+    <string-array name="credits_buttons">
+        <item>GitHub</item>
+    </string-array>
+
+    <string-array name="credits_links">
+        <item>https://github.com/katacarbix</item>
+    </string-array>
+</resources>

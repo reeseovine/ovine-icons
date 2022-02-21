@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?><!--suppress CheckTagEmptyBody -->
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="ExtraTranslation">
+	<!-- Make sure to put at least 8 icons -->
+	<string-array name="icons_preview">
+		<item>___cvs_pharmacy</item>
+		<item>___kde_connect</item>
+		<item>_p__ep</item>
+		<item>app_manager</item>
+		<item>f_droid</item>
+		<item>fly_delta</item>
+		<item>home_assistant</item>
+		<item>infinity</item>
+		<item>magisk_manager</item>
+		<item>messenger</item>
+		<item>messenger_lite</item>
+		<item>newegg</item>
+		<item>nintendo_switch_online</item>
+		<item>nucleus_smart</item>
+		<item>pay_with_privacy</item>
+		<item>popeyes</item>
+		<item>port_authority</item>
+		<item>seafile</item>
+		<item>taco_bell</item>
+		<item>telegram</item>
+		<item>us_bank</item>
+		<item>wallpaper_changer</item>
+		<item>wire__guard</item>
+	</string-array>
+
+	<!-- These sections below are for your "Previews" section -->
+	<!-- Make sure the filters names are the same as the other arrays -->
+	<string-array name="icon_filters">
+		<item>all</item>
+	</string-array>
+
+	<string-array name="all">
+		<item>___cvs_pharmacy</item>
+		<item>___kde_connect</item>
+		<item>_p__ep</item>
+		<item>app_manager</item>
+		<item>f_droid</item>
+		<item>fly_delta</item>
+		<item>home_assistant</item>
+		<item>infinity</item>
+		<item>magisk_manager</item>
+		<item>messenger</item>
+		<item>messenger_lite</item>
+		<item>newegg</item>
+		<item>nintendo_switch_online</item>
+		<item>nucleus_smart</item>
+		<item>pay_with_privacy</item>
+		<item>popeyes</item>
+		<item>port_authority</item>
+		<item>seafile</item>
+		<item>taco_bell</item>
+		<item>telegram</item>
+		<item>us_bank</item>
+		<item>wallpaper_changer</item>
+		<item>wire__guard</item>
+	</string-array>
+</resources>

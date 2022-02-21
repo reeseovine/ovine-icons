@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This is for Atom Launcher -->
+<themeInfo>
+    <packageName>xyz.ovine.icons</packageName>
+    <versionName>1.0</versionName>
+    <versionCode>1</versionCode>
+    <themeName>Ovine Icons</themeName>
+    <!-- Default Component Color -->
+    <themePointColor>#dd7db2</themePointColor>
+    <themePreview img1="preview1" />
+    <preview img1="preview1" />
+</themeInfo>

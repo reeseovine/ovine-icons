@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<version>1</version>
+	<category title="All" />
+	<item drawable="___cvs_pharmacy" />
+	<item drawable="___kde_connect" />
+	<item drawable="_p__ep" />
+	<item drawable="app_manager" />
+	<item drawable="f_droid" />
+	<item drawable="fly_delta" />
+	<item drawable="home_assistant" />
+	<item drawable="infinity" />
+	<item drawable="magisk_manager" />
+	<item drawable="messenger" />
+	<item drawable="messenger_lite" />
+	<item drawable="newegg" />
+	<item drawable="nintendo_switch_online" />
+	<item drawable="nucleus_smart" />
+	<item drawable="pay_with_privacy" />
+	<item drawable="popeyes" />
+	<item drawable="port_authority" />
+	<item drawable="seafile" />
+	<item drawable="taco_bell" />
+	<item drawable="telegram" />
+	<item drawable="us_bank" />
+	<item drawable="wallpaper_changer" />
+	<item drawable="wire__guard" />
+</resources>
