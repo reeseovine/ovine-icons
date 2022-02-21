@@ -21,6 +21,14 @@ apply plugin: 'kotlin-parcelize'
 apply plugin: 'kotlin-kapt'
 
 android {
+    signingConfigs {
+        debug {
+            storeFile file('/home/reese/android-signing-key.jks')
+            storePassword 'vFzuINrAjUWSDbyRD4nhK0em2khhV3PJkAL+az/QOEU='
+            keyPassword 'vFzuINrAjUWSDbyRD4nhK0em2khhV3PJkAL+az/QOEU='
+            keyAlias 'reese'
+        }
+    }
     lintOptions {
         abortOnError false
         checkReleaseBuilds true

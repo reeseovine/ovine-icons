@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+	<version title="v0.0.2" />
+	<item text="Removed Wallpapers section- I don't ever plan on adding any." />
+	<item text="Improved Infinity icon." />
     <version title="v0.0.1" />
     <item text="First release, powered by Blueprint. See About section for more info!" />
 </resources>

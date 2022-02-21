@@ -31,12 +31,7 @@ If an app's current icon doesn't follow these then it's probably a good candidat
 
 ## to do
 
-- [x] Package it into an APK that you can install on your phone
-- [x] Finish SVG->drawable converter
-- [x] Debug gradients
-- [x] Rename SVGs to drawable names
-- [x] Resize all SVGs to 108x108
-- [x] ~~Either~~ get rid of Xfinity Home ~~or make a whole set for all their apps~~
+- [ ] Streamline the icon menu if possible. 2 taps to see the full list is too many!
 
 ## license
 

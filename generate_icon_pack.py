@@ -11,7 +11,7 @@ from os import listdir
 # Setup #
 #########
 
-app_path = Path("../../jahirfiquitiva/Blueprint/app/src/main")
+app_path = Path("./app/src/main")
 
 class Icon(NamedTuple):
 	drawable: str
