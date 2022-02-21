@@ -31,7 +31,7 @@ If an app's current icon doesn't follow these then it's probably a good candidat
 
 ## to do
 
-- [ ] Package it into an APK that you can install on your phone
+- [x] Package it into an APK that you can install on your phone
 - [x] Finish SVG->drawable converter
 - [x] Debug gradients
 - [x] Rename SVGs to drawable names
