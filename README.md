@@ -31,12 +31,14 @@ If an app's current icon doesn't follow these then it's probably a good candidat
 
 ## to do
 
-- [x] Rename SVGs to drawable names
-- [ ] Resize all SVGs to 108x108
-- [ ] Finish SVG->drawable converter
 - [ ] Package it into an APK that you can install on your phone
+- [x] Finish SVG->drawable converter
+- [x] Debug gradients
+- [x] Rename SVGs to drawable names
+- [x] Resize all SVGs to 108x108
 - [x] ~~Either~~ get rid of Xfinity Home ~~or make a whole set for all their apps~~
 
 ## license
 
-[`CC BY-SA 4.0`](https://creativecommons.org/licenses/by-sa/4.0/)
+- The icons themselves are [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).
+- Svg2VectorAndroid was made by [ravibhojwani86](https://github.com/ravibhojwani86/Svg2VectorAndroid). All rights reserved.

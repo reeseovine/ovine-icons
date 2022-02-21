@@ -3,8 +3,8 @@ ___kde_connect	org.kde.kdeconnect_tp	org.kde.kdeconnect.UserInterface.MainActivi
 ___kde_connect	org.kde.kdeconnect_tp	org.kde.kdeconnect.UserInterface.MaterialActivity
 _p__ep	security.pEp	com.fsck.k9.pEp.ui.activities.SplashActivity
 app_manager	io.github.muntashirakon.AppManager	io.github.muntashirakon.AppManager.main.MainActivity
-f-__droid	org.fdroid.fdroid	org.fdroid.fdroid.FDroid
-f-__droid	org.fdroid.fdroid	org.fdroid.fdroid.views.main.MainActivity
+f_droid	org.fdroid.fdroid	org.fdroid.fdroid.FDroid
+f_droid	org.fdroid.fdroid	org.fdroid.fdroid.views.main.MainActivity
 fly_delta	com.delta.mobile.android	com.delta.mobile.android.SplashScreen
 home_assistant	io.homeassistant.companion.android	io.homeassistant.companion.android.launch.LaunchActivity
 home_assistant	io.homeassistant.companion.android.minimal	io.homeassistant.companion.android.launch.LaunchActivity
@@ -23,13 +23,14 @@ nintendo_switch_online	com.nintendo.znca	com.nintendo.coral.ui.boot.BootActivity
 nintendo_switch_online	com.nintendo.znca	crc64e1ce91bfba58d316.MainActivity
 nintendo_switch_online	com.nintendo.znca	md5e14d8df872e237c80839f608ad2933ea.MainActivity
 nucleus_smart	com.cochlear.clientremote	com.cochlear.nucleussmart.welcome.ui.activity.SplashActivity
+pay_with_privacy	com.privacy.pay	com.privacy.pay.MainActivity
 popeyes	com.emn8.mobilem8.nativeapp.popeyes	rbi.android.app.MainActivity
 port_authority	com.aaronjwood.portauthority.donate	com.aaronjwood.portauthority.activity.MainActivity
 port_authority	com.aaronjwood.portauthority.free	com.aaronjwood.portauthority.activity.MainActivity
-privacy.com	com.privacy.pay	com.privacy.pay.MainActivity
 seafile	com.seafile.seadroid2	com.seafile.seadroid2.ui.activity.BrowserActivity
 taco_bell	com.tacobell.ordering	com.tacobell.global.view.SplashActivity
 telegram	org.telegram.messenger	org.telegram.ui.LaunchActivity
 us_bank	com.usbank.mobilebanking	com.usb.module.environment.ui.SplashActivity
 us_bank	com.usbank.mobilebanking	com.usbank.mobilebanking.USBank
 wallpaper_changer	de.j4velin.wallpaperChanger	de.j4velin.wallpaperChanger.settings.Settings
+wire__guard	com.wireguard.android	com.wireguard.android.activity.MainActivity

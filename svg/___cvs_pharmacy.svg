@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg
-   xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="512"
-   height="512"
-   viewBox="0 0 135.46667 135.46667"
+   width="108"
+   height="108"
+   viewBox="0 0 28.575 28.575"
    version="1.1"
    id="svg8"
-   inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)"
-   sodipodi:docname="com.cvs.launchers.cvs.svg"
+   inkscape:version="1.1.2 (1:1.1+202202050950+0a00cf5339)"
+   sodipodi:docname="___cvs_pharmacy.svg"
    inkscape:export-filename="/home/reese/Pictures/icons/png/cvs_pharmacy.png"
    inkscape:export-xdpi="28.659931"
-   inkscape:export-ydpi="28.659931">
+   inkscape:export-ydpi="28.659931"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
   <defs
      id="defs2" />
   <sodipodi:namedview
@@ -27,10 +27,10 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.4419209"
-     inkscape:cx="-105.95944"
-     inkscape:cy="183.26114"
+     inkscape:cx="-106.10846"
+     inkscape:cy="183.0891"
      inkscape:document-units="mm"
-     inkscape:current-layer="svg8"
+     inkscape:current-layer="background"
      showgrid="false"
      fit-margin-top="0"
      fit-margin-left="0"
@@ -52,7 +52,8 @@
      inkscape:snap-page="true"
      inkscape:snap-to-guides="true"
      inkscape:document-rotation="0"
-     units="px" />
+     units="px"
+     inkscape:pagecheckerboard="1" />
   <metadata
      id="metadata5">
     <rdf:RDF>
@@ -61,7 +62,6 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -70,8 +70,8 @@
      id="background"
      inkscape:label="Background">
     <path
-       d="M 0,0 H 135.43739 V 135.43739 H 0 Z"
-       style="fill:#cc0000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.26452601"
+       d="M 0,0 H 28.575 V 28.575 H 0 Z"
+       style="fill:#cc0000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.0558106"
        id="path3481"
        inkscape:connector-curvature="0" />
   </g>
@@ -81,9 +81,9 @@
      id="foreground"
      transform="translate(449.41339,493.41072)">
     <path
-       d="m -395.53274,-448.37913 c -1.90064,0 -3.80125,0.731 -5.19018,2.19304 l -10.45347,10.45346 c -2.85096,2.85096 -2.85096,7.52943 0,10.45346 l 29.53287,29.45978 29.45979,-29.53288 c 2.85096,-2.85093 2.85096,-7.5294 0,-10.45347 l -10.45348,-10.38035 c -1.46203,-1.46204 -3.36265,-2.19304 -5.19018,-2.19304 -1.90064,0 -3.80127,0.731 -5.26328,2.19304 l -8.55285,8.62592 -8.62594,-8.62592 c -1.46203,-1.46204 -3.36263,-2.19304 -5.26328,-2.19304 z"
+       d="m -438.04793,-483.91187 c -0.40093,0 -0.80183,0.15419 -1.09481,0.46259 l -2.20503,2.20503 c -0.60138,0.60138 -0.60138,1.58824 0,2.20503 l 6.22959,6.21417 6.21417,-6.22959 c 0.60138,-0.60137 0.60138,-1.58823 0,-2.20503 l -2.20503,-2.18961 c -0.3084,-0.3084 -0.7093,-0.46259 -1.0948,-0.46259 -0.40092,0 -0.80183,0.15419 -1.11023,0.46259 l -1.80411,1.81953 -1.81954,-1.81953 c -0.30839,-0.3084 -0.70929,-0.46259 -1.11021,-0.46259 z"
        id="path2703"
-       style="fill:#ffffff;stroke-width:0.7310093"
+       style="fill:#ffffff;stroke-width:0.154197"
        inkscape:label="heart"
        inkscape:connector-curvature="0" />
   </g>

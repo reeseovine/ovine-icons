@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
 
 import csv
-from pathlib import Path
 from typing import NamedTuple
-
-from svg2drawable import svg2drawable
+from pathlib import Path
+from subprocess import run
+from os import listdir
 
 
 #########
@@ -26,10 +26,10 @@ class IconList:
 		self.icons = icons
 
 	def __repr__(self) -> str:
-		top     = "╭─"+("─"*30)+"─┬─"+("─"*50)+"─┬─"+("─"*70)+"─╮"
-		header  = "│ {0:30} │ {1:50} │ {2:70} │".format("Drawable", "Package ID", "Activity ID")
-		divider = "├─"+("─"*30)+"─┼─"+("─"*50)+"─┼─"+("─"*70)+"─┤"
-		bottom  = "╰─"+("─"*30)+"─┴─"+("─"*50)+"─┴─"+("─"*70)+"─╯"
+		top     = '╭─'+('─'*30)+'─┬─'+('─'*50)+'─┬─'+('─'*70)+'─╮'
+		header  = '│ {0:30} │ {1:50} │ {2:70} │'.format('Drawable', 'Package ID', 'Activity ID')
+		divider = '├─'+('─'*30)+'─┼─'+('─'*50)+'─┼─'+('─'*70)+'─┤'
+		bottom  = '╰─'+('─'*30)+'─┴─'+('─'*50)+'─┴─'+('─'*70)+'─╯'
 		return "\n".join([top, header, divider, *[str(row) for row in self.icons], bottom])
 
 	def query(self, column: str, value: str):
@@ -111,11 +111,12 @@ def xmlgen_iconpack(icons: IconList) -> None:
 
 # Generate drawable/*_[background,foreground].xml
 def xmlgen_drawable_layers(icons: IconList) -> None:
-	for name in icons.get_unique_entries('drawable'):
+	run(['java', '-jar', 'Svg2VectorAndroid-1.0.1.jar', 'build/layers/'])
+	run(['mv', 'build/layers/ProcessedSVG', 'build/vectordrawables'])
+	for name in listdir(Path(__file__).parent / 'build' / 'vectordrawables'):
 		for layer in ['background', 'foreground']:
-			with open(Path(__file__).parent / 'build' / 'layers' / name / f'{layer}.svg') as f:
-				xml = svg2drawable(f.read())
-				write_file(app_path / 'res' / 'drawable' / f'{name}_{layer}.xml', xml)
+			with open(Path(__file__).parent / 'build' / 'vectordrawables' / name / f'{layer}_svg.xml') as f:
+				write_file(app_path / 'res' / 'drawable' / f'{name}_{layer}.xml', f.read())
 
 # Generate drawable-anydpi-v26/*.xml
 def xmlgen_drawable_combined(icons: IconList) -> None:
@@ -134,8 +135,13 @@ def xmlgen_drawable_combined(icons: IconList) -> None:
 
 def main():
 	icons = get_from_tsv_file()
-	with open(Path(__file__).parent / 'build' / 'layers' / 'com.delta.mobile.android' / f'foreground.svg') as f:
-		svg2drawable(f.read())
+	xmlgen_appfilter(icons)
+	xmlgen_appmap(icons)
+	xmlgen_drawable(icons)
+	xmlgen_iconpack(icons)
+	xmlgen_drawable_layers(icons)
+	xmlgen_drawable_combined(icons)
+	print('All done!')
 
 if __name__ == '__main__':
 	main()
