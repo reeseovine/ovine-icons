@@ -112,8 +112,9 @@ def xmlgen_iconpack(icons: IconList) -> None:
 # Generate drawable/*_[background,foreground].xml
 def xmlgen_drawable_layers(icons: IconList) -> None:
 	run(['java', '-jar', 'Svg2VectorAndroid-1.0.1.jar', 'build/layers/'])
+	run(['rm', '-r', 'build/vectordrawables'])
 	run(['mv', 'build/layers/ProcessedSVG', 'build/vectordrawables'])
-	for name in listdir(Path(__file__).parent / 'build' / 'vectordrawables'):
+	for name in icons.get_unique_entries('drawable'):
 		for layer in ['background', 'foreground']:
 			with open(Path(__file__).parent / 'build' / 'vectordrawables' / name / f'{layer}_svg.xml') as f:
 				write_file(app_path / 'res' / 'drawable' / f'{name}_{layer}.xml', f.read())
