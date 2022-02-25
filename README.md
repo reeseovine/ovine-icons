@@ -2,7 +2,7 @@
 
 Hand-made adaptive icons for a small selection of Android apps.
 
-[![Get it on IzzyOnDroid](https://gitlab.com/IzzyOnDroid/repo/-/raw/master/assets/IzzyOnDroid.png)](https://apt.izzysoft.de/fdroid/index/apk/xyz.ovine.icons)
+[![Get it on IzzyOnDroid](extra/izzyondroid_badge.png)](https://apt.izzysoft.de/fdroid/index/apk/xyz.ovine.icons)
 
 ![icon preview image](extra/preview.png)
 
