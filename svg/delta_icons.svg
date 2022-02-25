@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg style="fill:none" version="1.1" viewBox="0 0 108 108" xmlns="http://www.w3.org/2000/svg">
+	<g id="background">
+		<path d="m0 0h108v108h-108z" style="fill:#56595b;stroke-linecap:square;stroke-width:1.652"/>
+	</g>
+	<g id="foreground">
+		<g>
+			<circle cx="36.497" cy="53.996" r="4.5382" style="fill:#d3b69a;stroke-linecap:square;stroke-width:1.2881"/>
+			<circle cx="54.001" cy="36.493" r="4.5382" style="fill:#ff837d;stroke-linecap:square;stroke-width:1.2881"/>
+			<circle cx="45.249" cy="45.245" r="4.5382" style="fill:#98dc9a;stroke-linecap:square;stroke-width:1.2881"/>
+			<circle cx="45.249" cy="62.748" r="4.5382" style="fill:#96dfd3;stroke-linecap:square;stroke-width:1.2881"/>
+			<circle cx="62.752" cy="45.245" r="4.5382" style="fill:#f8c18c;stroke-linecap:square;stroke-width:1.2881"/>
+			<circle cx="54.001" cy="53.996" r="4.5382" style="fill:#9abeff;stroke-linecap:square;stroke-width:1.2881"/>
+			<circle cx="54.001" cy="71.5" r="4.5382" style="fill:#b1b5bd;stroke-linecap:square;stroke-width:1.2881"/>
+			<circle cx="71.504" cy="53.996" r="4.5382" style="fill:#f9de81;stroke-linecap:square;stroke-width:1.2881"/>
+			<circle cx="62.752" cy="62.748" r="4.5382" style="fill:#bd9aff;stroke-linecap:square;stroke-width:1.2881"/>
+		</g>
+	</g>
+</svg>

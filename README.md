@@ -33,9 +33,10 @@ If an app's current icon doesn't follow these then it's probably a good candidat
 
 See [projects](https://github.com/katacarbix/ovine-icons/projects?type=beta)
 
-## license
+## licenses
 
-- This app uses the [MIT license](LICENSE).
-- The icons themselves are [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).
+- This app and the build tools I made for it use the [MIT license](LICENSE).
+- The icons themselves are [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). All registered trademarks (logos) belong to their respective holders.
 - [Blueprint by jahirfiquitiva](https://github.com/jahirfiquitiva/Blueprint) is also [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).
 - [Svg2VectorAndroid by ravibhojwani86](https://github.com/ravibhojwani86/Svg2VectorAndroid) has no license, so all rights reserved.
+- The sheep in the dashboard app's icon is from [Google's Noto Emoji](https://github.com/googlefonts/noto-emoji/blob/main/svg/emoji_u1f40f.svg) which uses the [Apache License 2.0](https://github.com/googlefonts/noto-emoji/blob/main/LICENSE).

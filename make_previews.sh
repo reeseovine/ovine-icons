@@ -3,7 +3,7 @@
 mkdir -p "build/composites" "build/circular"
 for icon in svg/*.svg; do
 	icon_name=$(echo $icon | sed -Ee 's/.*\/(.*)\.svg/\1/')
-	if [ "$icon_name" = "xyz.ovine.icons" ]; then continue; fi
+	if [ "$icon_name" = "ic_launcher" ]; then continue; fi
 
 	# Export full PNG
 	inkscape \
@@ -30,6 +30,6 @@ inkscape \
 #   1) Take the circular icons and arrange them on an 8-wide grid, each one resized to 128px by
 #      128px and with -8px spacing on each side, and give the whole thing a transparent background.
 #   2) Add a 16px transparent border around the grid to simulate padding.
-#   3) Place this on top of the background image I made and crop it to 928px by 256px.
-#      TODO: Dynamically resize based on previous step's size
-montage $(find "build/circular/" -name '*.png' | sort) -tile 8x -geometry 128x128-8-8 -background '#00000000' png:- | convert - -bordercolor '#00000000' -border 16x16 png:- | convert "extra/background.png" - -composite -extent 928x368 "extra/preview.png"
+#   3) Place this on top of the background image I made and crop it to 928px by 480px.
+#      TODO: Dynamically crop to step 2's size
+montage $(find "build/circular/" -name '*.png' | sort) -tile 8x -geometry 128x128-8-8 -background '#00000000' png:- | convert - -bordercolor '#00000000' -border 16x16 png:- | convert "extra/background.png" - -composite -extent 928x480 "extra/preview.png"

@@ -5,6 +5,10 @@
 	<item class="org.kde.kdeconnect_tp/org.kde.kdeconnect.UserInterface.MaterialActivity" name="___kde_connect" />
 	<item class="security.pEp/com.fsck.k9.pEp.ui.activities.SplashActivity" name="_p__ep" />
 	<item class="io.github.muntashirakon.AppManager/io.github.muntashirakon.AppManager.main.MainActivity" name="app_manager" />
+	<item class="cm.aptoide.pt/cm.aptoide.pt.view.entry.EntryActivity" name="aptoide" />
+	<item class="cm.aptoide.pt/cm.aptoide.pt.view.MainActivity" name="aptoide" />
+	<item class="com.bandcamp.android/com.bandcamp.android.view.SplashActivity" name="bandcamp" />
+	<item class="website.leifs.delta/website.leifs.delta.activities.SplashActivity" name="delta_icons" />
 	<item class="org.fdroid.fdroid/org.fdroid.fdroid.FDroid" name="f_droid" />
 	<item class="org.fdroid.fdroid/org.fdroid.fdroid.views.main.MainActivity" name="f_droid" />
 	<item class="com.delta.mobile.android/com.delta.mobile.android.SplashScreen" name="fly_delta" />
@@ -29,7 +33,9 @@
 	<item class="com.emn8.mobilem8.nativeapp.popeyes/rbi.android.app.MainActivity" name="popeyes" />
 	<item class="com.aaronjwood.portauthority.donate/com.aaronjwood.portauthority.activity.MainActivity" name="port_authority" />
 	<item class="com.aaronjwood.portauthority.free/com.aaronjwood.portauthority.activity.MainActivity" name="port_authority" />
+	<item class="com.privateinternetaccess.android/com.privateinternetaccess.android.ui.LauncherActivity" name="private_internet_access" />
 	<item class="com.seafile.seadroid2/com.seafile.seadroid2.ui.activity.BrowserActivity" name="seafile" />
+	<item class="com.saltypandastudios.frontime/com.saltypandastudios.frontime.MainActivity" name="simply_plural" />
 	<item class="com.tacobell.ordering/com.tacobell.global.view.SplashActivity" name="taco_bell" />
 	<item class="org.telegram.messenger/org.telegram.ui.LaunchActivity" name="telegram" />
 	<item class="com.usbank.mobilebanking/com.usb.module.environment.ui.SplashActivity" name="us_bank" />

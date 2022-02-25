@@ -3,6 +3,10 @@ ___kde_connect	org.kde.kdeconnect_tp	org.kde.kdeconnect.UserInterface.MainActivi
 ___kde_connect	org.kde.kdeconnect_tp	org.kde.kdeconnect.UserInterface.MaterialActivity
 _p__ep	security.pEp	com.fsck.k9.pEp.ui.activities.SplashActivity
 app_manager	io.github.muntashirakon.AppManager	io.github.muntashirakon.AppManager.main.MainActivity
+aptoide	cm.aptoide.pt	cm.aptoide.pt.view.entry.EntryActivity
+aptoide	cm.aptoide.pt	cm.aptoide.pt.view.MainActivity
+bandcamp	com.bandcamp.android	com.bandcamp.android.view.SplashActivity
+delta_icons	website.leifs.delta	website.leifs.delta.activities.SplashActivity
 f_droid	org.fdroid.fdroid	org.fdroid.fdroid.FDroid
 f_droid	org.fdroid.fdroid	org.fdroid.fdroid.views.main.MainActivity
 fly_delta	com.delta.mobile.android	com.delta.mobile.android.SplashScreen
@@ -27,7 +31,9 @@ pay_with_privacy	com.privacy.pay	com.privacy.pay.MainActivity
 popeyes	com.emn8.mobilem8.nativeapp.popeyes	rbi.android.app.MainActivity
 port_authority	com.aaronjwood.portauthority.donate	com.aaronjwood.portauthority.activity.MainActivity
 port_authority	com.aaronjwood.portauthority.free	com.aaronjwood.portauthority.activity.MainActivity
+private_internet_access	com.privateinternetaccess.android	com.privateinternetaccess.android.ui.LauncherActivity
 seafile	com.seafile.seadroid2	com.seafile.seadroid2.ui.activity.BrowserActivity
+simply_plural	com.saltypandastudios.frontime	com.saltypandastudios.frontime.MainActivity
 taco_bell	com.tacobell.ordering	com.tacobell.global.view.SplashActivity
 telegram	org.telegram.messenger	org.telegram.ui.LaunchActivity
 us_bank	com.usbank.mobilebanking	com.usb.module.environment.ui.SplashActivity

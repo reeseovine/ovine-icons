@@ -6,6 +6,9 @@
 	<item drawable="___kde_connect" />
 	<item drawable="_p__ep" />
 	<item drawable="app_manager" />
+	<item drawable="aptoide" />
+	<item drawable="bandcamp" />
+	<item drawable="delta_icons" />
 	<item drawable="f_droid" />
 	<item drawable="fly_delta" />
 	<item drawable="home_assistant" />
@@ -19,7 +22,9 @@
 	<item drawable="pay_with_privacy" />
 	<item drawable="popeyes" />
 	<item drawable="port_authority" />
+	<item drawable="private_internet_access" />
 	<item drawable="seafile" />
+	<item drawable="simply_plural" />
 	<item drawable="taco_bell" />
 	<item drawable="telegram" />
 	<item drawable="us_bank" />
