@@ -31,10 +31,11 @@ If an app's current icon doesn't follow these then it's probably a good candidat
 
 ## to do
 
-- [ ] Streamline the icon menu if possible. 2 taps to see the full list is too many!
+See [projects](https://github.com/katacarbix/ovine-icons/projects?type=beta)
 
 ## license
 
+- This app uses the [MIT license](LICENSE).
 - The icons themselves are [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).
 - [Blueprint by jahirfiquitiva](https://github.com/jahirfiquitiva/Blueprint) is also [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).
 - [Svg2VectorAndroid by ravibhojwani86](https://github.com/ravibhojwani86/Svg2VectorAndroid) has no license, so all rights reserved.
