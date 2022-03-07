@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg style="fill:none" version="1.1" viewBox="0 0 108 108" xmlns="http://www.w3.org/2000/svg">
+	<g id="background">
+		<path d="m0 0h108v108h-108z" style="fill:#6baa65;stroke-linecap:round;stroke-width:59.723"/>
+	</g>
+	<g id="foreground">
+		<path d="m57.883 57.883-3.9583-10.099-4.0091 10.099zm-8.6271-21.77h9.4901l15.123 35.777h-10.555l-2.5881-6.3435h-13.702l-2.5374 6.3435h-10.352z" style="fill:#d3e3ce;stroke-width:1.0572"/>
+	</g>
+</svg>

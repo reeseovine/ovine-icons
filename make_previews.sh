@@ -24,7 +24,7 @@ done
 #   1) Take the circular icons and arrange them on an 8-wide grid, each one resized to 128px by
 #      128px and with -8px spacing on each side, and make the background transparent.
 #   2) Add a 16px transparent border around the grid to simulate padding.
-montage $(find "build/circular/" -name '*.png' | sort) -tile 8x -geometry 128x128-8-8 -background '#00000000' png:- | convert - -bordercolor '#00000000' -border 16x16 "build/preview/grid.png"
+montage $(find "build/circular/" -name '*.png' | sort) -tile 7x -geometry 128x128-8-8 -background '#00000000' png:- | convert - -bordercolor '#00000000' -border 16x16 "build/preview/grid.png"
 
 # Get the size of the grid image
 preview_size=$(identify "build/preview/grid.png" | sed -Ee 's/.* PNG ([0-9]+x[0-9]+) .*/\1/')
