@@ -1,6 +1,8 @@
 #!/usr/bin/env bash
 
-mkdir -p "build/composites" "build/circular"
+mkdir -p "build/composites" "build/circular" "build/preview"
+
+# Export each icon as a circular icon made to look like the final one rendered on a device
 for icon in svg/*.svg; do
 	icon_name=$(echo $icon | sed -Ee 's/.*\/(.*)\.svg/\1/')
 	if [ "$icon_name" = "ic_launcher" ]; then continue; fi
@@ -18,18 +20,33 @@ for icon in svg/*.svg; do
 done
 
 
-# Export the background drawing I made
+# Generate icon grid. This command does the following:
+#   1) Take the circular icons and arrange them on an 8-wide grid, each one resized to 128px by
+#      128px and with -8px spacing on each side, and make the background transparent.
+#   2) Add a 16px transparent border around the grid to simulate padding.
+montage $(find "build/circular/" -name '*.png' | sort) -tile 8x -geometry 128x128-8-8 -background '#00000000' png:- | convert - -bordercolor '#00000000' -border 16x16 "build/preview/grid.png"
+
+# Get the size of the grid image
+preview_size=$(identify "build/preview/grid.png" | sed -Ee 's/.* PNG ([0-9]+x[0-9]+) .*/\1/')
+preview_width=$(echo $preview_size | sed -Ee 's/([0-9]+)x([0-9]+)/\1/')
+preview_height=$(echo $preview_size | sed -Ee 's/([0-9]+)x([0-9]+)/\2/')
+
+# To make the background just big enough to fill the grid background, calculate which dimension to scale to.
+export_size="--export-width=${preview_width}"
+if [ $(($preview_width * 1080 / 1920)) -lt $preview_height ]; then
+	export_size="--export-height=${preview_height}"
+fi
+
+# Export the background at the right size
 inkscape \
-	--export-width=928 \
+	$export_size \
 	--export-area-page \
 	--export-type=png \
-	--export-filename="extra/background.png" \
+	--export-filename="build/preview/background.png" \
 	"extra/background.svg"
 
-# Generate full preview. Does the following steps:
-#   1) Take the circular icons and arrange them on an 8-wide grid, each one resized to 128px by
-#      128px and with -8px spacing on each side, and give the whole thing a transparent background.
-#   2) Add a 16px transparent border around the grid to simulate padding.
-#   3) Place this on top of the background image I made and crop it to 928px by 480px.
-#      TODO: Dynamically crop to step 2's size
-montage $(find "build/circular/" -name '*.png' | sort) -tile 8x -geometry 128x128-8-8 -background '#00000000' png:- | convert - -bordercolor '#00000000' -border 16x16 png:- | convert "extra/background.png" - -composite -extent 928x480 "extra/preview.png"
+# Generate a mask with 32px rounded corners
+convert -size $preview_size xc:none -draw "roundrectangle 0,0,${preview_width},${preview_height},32,32" "build/preview/mask.png"
+
+# All together now!
+convert -gravity Center "build/preview/background.png" "build/preview/grid.png" -composite -extent $preview_size -matte "build/preview/mask.png" -compose DstIn -composite "extra/preview.png"

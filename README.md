@@ -23,6 +23,7 @@ Feel free to submit an icon through a pull request if you'd like! I don't stick 
 - Follow <a href="https://github.com/jahirfiquitiva/Blueprint/wiki/Setting-up-icon-pack-(Part-2}#naming-icons">these naming conventions</a> for the file name.
 - Follow [Google's adaptive icon guidelines](https://developer.android.com/google-play/resources/icon-design-specifications) and use the file `extra/adaptive_template.svg` for scale and position. Use two layers: one with an ID of `background` and one with `foreground`.
 - Use vector logo or redraw it as a vector. (NO EMBEDDED RASTER IMAGES PLS)
+- If you need to convert strokes to paths, please keep the original path in a separate hidden layer in case it needs to be modified later.
 - If the source logo or icon looks too "busy", simplify it by reducing it to the essentials.
 - No letters or text unless it's part of the logo (NOT the wordmark). (e.g. Facebook's 'f')
 - No shadows.

@@ -40,24 +40,30 @@
      id="namedview94"
      showgrid="false"
      inkscape:zoom="8"
-     inkscape:cx="59.0625"
-     inkscape:cy="71.5"
-     inkscape:current-layer="svg92"
+     inkscape:cx="34"
+     inkscape:cy="56.625"
+     inkscape:current-layer="background"
      fit-margin-top="0"
      fit-margin-left="0"
      fit-margin-right="0"
      fit-margin-bottom="0"
-     inkscape:pagecheckerboard="1" />
+     inkscape:pagecheckerboard="1"
+     inkscape:lockguides="true"
+     inkscape:snap-center="true" />
+  <defs
+     id="defs90" />
+  <g
+     id="background"
+     inkscape:label="background"
+     inkscape:groupmode="layer" />
+  <g
+     id="foreground"
+     inkscape:label="foreground"
+     inkscape:groupmode="layer" />
   <g
      id="g2362"
      transform="matrix(0.24905555,0,0,0.24874291,0.1254184,-19.479926)"
-     inkscape:label="template">
-    <path
-       style="display:inline;fill:none;stroke:none;stroke-width:1.00675;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.5"
-       d="M -0.50357482,78.313492 H 433.13462 V 512.49672 H -0.50357482 Z"
-       id="rect2"
-       inkscape:connector-curvature="0"
-       inkscape:label="bg-size" />
+     inkscape:label="template (delete before submitting)">
     <path
        style="display:inline;fill:none;stroke:#ff9800;stroke-width:4.0103;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.5"
        inkscape:connector-curvature="0"
@@ -114,6 +120,4 @@
        transform="rotate(90)"
        inkscape:label="keyline-rect-h" />
   </g>
-  <defs
-     id="defs90" />
 </svg>
