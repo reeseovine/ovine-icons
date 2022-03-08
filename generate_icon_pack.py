@@ -46,6 +46,9 @@ class IconList:
 				names.append(getattr(row, column))
 		return names
 
+def get_drawable_names() -> list:
+	return filter(lambda name: name != "ic_launcher", listdir('build/layers'))
+
 
 
 #################
@@ -93,7 +96,7 @@ def xmlgen_appmap(icons: IconList) -> None:
 # Generate drawable.xml
 def xmlgen_drawable(icons: IconList) -> None:
 	xml = '<?xml version="1.0" encoding="utf-8"?>\n<resources>\n\t<version>1</version>\n\t<category title="All" />\n'
-	for name in icons.get_unique_entries('drawable'):
+	for name in get_drawable_names():
 		xml += f'\t<item drawable="{name}" />\n'
 	xml += '</resources>\n'
 	write_file(app_path / 'assets' / 'drawable.xml', xml)
@@ -101,10 +104,10 @@ def xmlgen_drawable(icons: IconList) -> None:
 # Generate icon_pack.xml
 def xmlgen_iconpack(icons: IconList) -> None:
 	xml = '<?xml version="1.0" encoding="utf-8"?><!--suppress CheckTagEmptyBody -->\n<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="ExtraTranslation">\n\t<!-- Make sure to put at least 8 icons -->\n\t<string-array name="icons_preview">\n'
-	for name in icons.get_unique_entries('drawable'):
+	for name in get_drawable_names():
 		xml += f'\t\t<item>{name}</item>\n'
 	xml += '\t</string-array>\n\n\t<!-- These sections below are for your "Previews" section -->\n\t<!-- Make sure the filters names are the same as the other arrays -->\n\t<string-array name="icon_filters">\n\t\t<item>all</item>\n\t</string-array>\n\n\t<string-array name="all">\n'
-	for name in icons.get_unique_entries('drawable'):
+	for name in get_drawable_names():
 		xml += f'\t\t<item>{name}</item>\n'
 	xml += '\t</string-array>\n</resources>\n'
 	write_file(app_path / 'res' / 'values' / 'icon_pack.xml', xml)
@@ -114,14 +117,14 @@ def xmlgen_drawable_layers(icons: IconList) -> None:
 	run(['java', '-jar', 'Svg2VectorAndroid-1.0.1.jar', 'build/layers/'])
 	run(['rm', '-r', 'build/vectordrawables'])
 	run(['mv', 'build/layers/ProcessedSVG', 'build/vectordrawables'])
-	for name in icons.get_unique_entries('drawable'):
+	for name in get_drawable_names():
 		for layer in ['background', 'foreground']:
 			with open(Path(__file__).parent / 'build' / 'vectordrawables' / name / f'{layer}_svg.xml') as f:
 				write_file(app_path / 'res' / 'drawable' / f'{name}_{layer}.xml', f.read())
 
 # Generate drawable-anydpi-v26/*.xml
 def xmlgen_drawable_combined(icons: IconList) -> None:
-	for name in icons.get_unique_entries('drawable'):
+	for name in get_drawable_names():
 		xml = '<?xml version="1.0" encoding="utf-8"?>\n<adaptive-icon xmlns:android="http://schemas.android.com/apk/res/android">\n'
 		xml += f'\t<background android:drawable="@drawable/{name}_background" />\n'
 		xml += f'\t<foreground android:drawable="@drawable/{name}_foreground" />\n'

@@ -1,37 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="108" height="108" version="1.1" viewBox="0 0 28.575 28.575" xmlns="http://www.w3.org/2000/svg">
+<svg version="1.1" viewBox="0 0 108 108" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 	<defs>
-		<linearGradient id="linearGradient9623" x1="-449.38" x2="-313.95" y1="-357.94" y2="-493.38" gradientTransform="matrix(.21094 0 0 .21094 94.798 104.08)" gradientUnits="userSpaceOnUse">
-			<stop style="stop-color:#cdcdcd" offset="0"/>
-			<stop style="stop-color:#e9e9e9" offset=".17909"/>
-			<stop style="stop-color:#d2d2d2" offset=".4459"/>
-			<stop style="stop-color:#ededed" offset=".7957"/>
-			<stop style="stop-color:#e3e3e3" offset="1"/>
+		<linearGradient id="linearGradient9623" x1="0" x2="108" y1="108" y2="0" gradientUnits="userSpaceOnUse">
+			<stop stop-color="#cdcdcd" offset="0"/>
+			<stop stop-color="#e9e9e9" offset=".17909"/>
+			<stop stop-color="#d2d2d2" offset=".4459"/>
+			<stop stop-color="#ededed" offset=".7957"/>
+			<stop stop-color="#e3e3e3" offset="1"/>
 		</linearGradient>
-		<linearGradient id="linearGradient1692" x1="255.13" x2="255.13" y1="287.35" y2="245.09" gradientTransform="matrix(.81609 0 0 1 234.83 5.0012e-6)" gradientUnits="userSpaceOnUse">
-			<stop style="stop-color:#402f05" offset="0"/>
-			<stop style="stop-color:#f8d37e" offset=".07443"/>
-			<stop style="stop-color:#b99132" offset=".56391"/>
-			<stop style="stop-color:#8e670b" offset=".70707"/>
-			<stop style="stop-color:#000000" offset="1"/>
+		<linearGradient id="linearGradient1326" x1="0" x2="0" y1="46.5765" y2="40.045" gradientUnits="userSpaceOnUse">
+			<stop stop-color="#402f05" offset="0"/>
+			<stop stop-color="#f8d37e" offset=".07443"/>
+			<stop stop-color="#b99132" offset=".56391"/>
+			<stop stop-color="#8e670b" offset=".70707"/>
+			<stop stop-color="#000000" offset="1"/>
 		</linearGradient>
 	</defs>
-	<g id="background" transform="translate(-1.3874e-5)">
-		<rect x="1.3874e-5" width="28.575" height="28.575" style="fill:url(#linearGradient9623);stroke-linecap:round;stroke-linejoin:round;stroke-width:.0055811"/>
+	<g id="background">
+		<rect x="0" y="0" width="108" height="108" fill="url(#linearGradient9623)"/>
 	</g>
-	<g id="foreground" transform="translate(449.41,493.41)">
-		<g transform="matrix(.040893 0 0 .040893 -449.02 -492.97)">
-			<path d="m197.73 243.88v168.7h57.484v32.977h30.91v28.562h107.65v-28.562h31.436v-32.977h56.705v-168.7z" fill="#000000"/>
-			<g transform="translate(0,3.2444)">
-				<rect x="237.79" y="245.09" width="15.094" height="42.26" style="fill:url(#linearGradient1692)"/>
-				<rect x="292.12" y="245.09" width="15.094" height="42.26" style="fill:url(#linearGradient1692)"/>
-				<rect x="319.28" y="245.09" width="15.094" height="42.26" style="fill:url(#linearGradient1692)"/>
-				<rect x="346.45" y="245.09" width="15.094" height="42.26" style="fill:url(#linearGradient1692)"/>
-				<rect x="373.61" y="245.09" width="15.094" height="42.26" style="fill:url(#linearGradient1692)"/>
-				<rect x="400.78" y="245.09" width="15.094" height="42.26" style="fill:url(#linearGradient1692)"/>
-				<rect x="427.94" y="245.09" width="15.094" height="42.26" style="fill:url(#linearGradient1692)"/>
-				<rect x="264.95" y="245.09" width="15.094" height="42.26" style="fill:url(#linearGradient1692)"/>
-			</g>
-		</g>
+	<g id="foreground">
+		<path d="m32.034 39.356v26.074h8.8845v5.0968h4.7773v4.4145h16.638v-4.4145h4.8586v-5.0968h8.7641v-26.074z" fill="#000"/>
+		<rect x="38.226" y="40.045" width="2.3329" height="6.5315" fill="url(#linearGradient1326)"/>
+		<rect x="46.623" y="40.045" width="2.3329" height="6.5315" fill="url(#linearGradient1326)"/>
+		<rect x="50.821" y="40.045" width="2.3329" height="6.5315" fill="url(#linearGradient1326)"/>
+		<rect x="55.02" y="40.045" width="2.3329" height="6.5315" fill="url(#linearGradient1326)"/>
+		<rect x="59.218" y="40.045" width="2.3329" height="6.5315" fill="url(#linearGradient1326)"/>
+		<rect x="63.417" y="40.045" width="2.3329" height="6.5315" fill="url(#linearGradient1326)"/>
+		<rect x="67.615" y="40.045" width="2.3329" height="6.5315" fill="url(#linearGradient1326)"/>
+		<rect x="42.424" y="40.045" width="2.3329" height="6.5315" fill="url(#linearGradient1326)"/>
 	</g>
 </svg>

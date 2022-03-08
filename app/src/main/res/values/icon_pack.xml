@@ -2,34 +2,48 @@
 <resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="ExtraTranslation">
 	<!-- Make sure to put at least 8 icons -->
 	<string-array name="icons_preview">
+		<item>oto_music</item>
 		<item>___cvs_pharmacy</item>
+		<item>mastodon</item>
+		<item>telegram</item>
+		<item>arcticons_light</item>
+		<item>nucleus_smart</item>
 		<item>___kde_connect</item>
-		<item>_p__ep</item>
-		<item>app_manager</item>
-		<item>aptoide</item>
-		<item>bandcamp</item>
-		<item>delta_icons</item>
-		<item>f_droid</item>
-		<item>fly_delta</item>
-		<item>home_assistant</item>
+		<item>anagramming</item>
+		<item>brave</item>
+		<item>private_internet_access</item>
+		<item>you__tube_vanced</item>
+		<item>port_authority</item>
 		<item>infinity</item>
-		<item>magisk_manager</item>
+		<item>arcticons_dark</item>
+		<item>taco_bell</item>
 		<item>messenger</item>
-		<item>messenger_lite</item>
+		<item>magisk_manager</item>
+		<item>aurora_services</item>
+		<item>delta_icons</item>
+		<item>seafile</item>
+		<item>aurora_store</item>
+		<item>backdrops</item>
+		<item>popeyes</item>
+		<item>wire__guard</item>
+		<item>mealie</item>
 		<item>newegg</item>
 		<item>nintendo_switch_online</item>
-		<item>nucleus_smart</item>
-		<item>pay_with_privacy</item>
-		<item>popeyes</item>
-		<item>port_authority</item>
-		<item>private_internet_access</item>
-		<item>seafile</item>
-		<item>simply_plural</item>
-		<item>taco_bell</item>
-		<item>telegram</item>
+		<item>_p__ep</item>
+		<item>fly_delta</item>
+		<item>messenger_lite</item>
+		<item>immich</item>
 		<item>us_bank</item>
+		<item>iceraven</item>
+		<item>home_assistant</item>
 		<item>wallpaper_changer</item>
-		<item>wire__guard</item>
+		<item>app_manager</item>
+		<item>pay_with_privacy</item>
+		<item>bandcamp</item>
+		<item>aurora_droid</item>
+		<item>f_droid</item>
+		<item>aptoide</item>
+		<item>simply_plural</item>
 	</string-array>
 
 	<!-- These sections below are for your "Previews" section -->
@@ -39,33 +53,47 @@
 	</string-array>
 
 	<string-array name="all">
+		<item>oto_music</item>
 		<item>___cvs_pharmacy</item>
+		<item>mastodon</item>
+		<item>telegram</item>
+		<item>arcticons_light</item>
+		<item>nucleus_smart</item>
 		<item>___kde_connect</item>
-		<item>_p__ep</item>
-		<item>app_manager</item>
-		<item>aptoide</item>
-		<item>bandcamp</item>
-		<item>delta_icons</item>
-		<item>f_droid</item>
-		<item>fly_delta</item>
-		<item>home_assistant</item>
+		<item>anagramming</item>
+		<item>brave</item>
+		<item>private_internet_access</item>
+		<item>you__tube_vanced</item>
+		<item>port_authority</item>
 		<item>infinity</item>
-		<item>magisk_manager</item>
+		<item>arcticons_dark</item>
+		<item>taco_bell</item>
 		<item>messenger</item>
-		<item>messenger_lite</item>
+		<item>magisk_manager</item>
+		<item>aurora_services</item>
+		<item>delta_icons</item>
+		<item>seafile</item>
+		<item>aurora_store</item>
+		<item>backdrops</item>
+		<item>popeyes</item>
+		<item>wire__guard</item>
+		<item>mealie</item>
 		<item>newegg</item>
 		<item>nintendo_switch_online</item>
-		<item>nucleus_smart</item>
-		<item>pay_with_privacy</item>
-		<item>popeyes</item>
-		<item>port_authority</item>
-		<item>private_internet_access</item>
-		<item>seafile</item>
-		<item>simply_plural</item>
-		<item>taco_bell</item>
-		<item>telegram</item>
+		<item>_p__ep</item>
+		<item>fly_delta</item>
+		<item>messenger_lite</item>
+		<item>immich</item>
 		<item>us_bank</item>
+		<item>iceraven</item>
+		<item>home_assistant</item>
 		<item>wallpaper_changer</item>
-		<item>wire__guard</item>
+		<item>app_manager</item>
+		<item>pay_with_privacy</item>
+		<item>bandcamp</item>
+		<item>aurora_droid</item>
+		<item>f_droid</item>
+		<item>aptoide</item>
+		<item>simply_plural</item>
 	</string-array>
 </resources>

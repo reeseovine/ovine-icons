@@ -4,16 +4,26 @@
 	<item component="ComponentInfo{org.kde.kdeconnect_tp/org.kde.kdeconnect.UserInterface.MainActivity}" drawable="___kde_connect" />
 	<item component="ComponentInfo{org.kde.kdeconnect_tp/org.kde.kdeconnect.UserInterface.MaterialActivity}" drawable="___kde_connect" />
 	<item component="ComponentInfo{security.pEp/com.fsck.k9.pEp.ui.activities.SplashActivity}" drawable="_p__ep" />
+	<item component="ComponentInfo{com.powerlanguage.Anagraming/com.unity3d.player.UnityPlayerActivity}" drawable="anagramming" />
 	<item component="ComponentInfo{io.github.muntashirakon.AppManager/io.github.muntashirakon.AppManager.main.MainActivity}" drawable="app_manager" />
 	<item component="ComponentInfo{cm.aptoide.pt/cm.aptoide.pt.view.entry.EntryActivity}" drawable="aptoide" />
 	<item component="ComponentInfo{cm.aptoide.pt/cm.aptoide.pt.view.MainActivity}" drawable="aptoide" />
+	<item component="ComponentInfo{com.donnnno.arcticons/com.donnnno.arcticons.activities.SplashActivity}" drawable="arcticons_dark" />
+	<item component="ComponentInfo{com.donnnno.arcticons.light/com.donnnno.arcticons.light.activities.SplashActivity}" drawable="arcticons_light" />
+	<item component="ComponentInfo{com.aurora.adroid/com.aurora.adroid.ui.generic.activity.SplashActivity}" drawable="aurora_droid" />
+	<item component="ComponentInfo{com.aurora.services/com.aurora.services.view.ui.activities.AuroraActivity}" drawable="aurora_services" />
+	<item component="ComponentInfo{com.aurora.store/com.aurora.store.view.ui.onboarding.OnboardingActivity}" drawable="aurora_store" />
+	<item component="ComponentInfo{com.backdrops.wallpapers/com.backdrops.wallpapers.WelcomeActivity}" drawable="backdrops" />
 	<item component="ComponentInfo{com.bandcamp.android/com.bandcamp.android.view.SplashActivity}" drawable="bandcamp" />
+	<item component="ComponentInfo{com.brave.browser/com.google.android.apps.chrome.Main}" drawable="brave" />
 	<item component="ComponentInfo{website.leifs.delta/website.leifs.delta.activities.SplashActivity}" drawable="delta_icons" />
 	<item component="ComponentInfo{org.fdroid.fdroid/org.fdroid.fdroid.FDroid}" drawable="f_droid" />
 	<item component="ComponentInfo{org.fdroid.fdroid/org.fdroid.fdroid.views.main.MainActivity}" drawable="f_droid" />
 	<item component="ComponentInfo{com.delta.mobile.android/com.delta.mobile.android.SplashScreen}" drawable="fly_delta" />
 	<item component="ComponentInfo{io.homeassistant.companion.android/io.homeassistant.companion.android.launch.LaunchActivity}" drawable="home_assistant" />
 	<item component="ComponentInfo{io.homeassistant.companion.android.minimal/io.homeassistant.companion.android.launch.LaunchActivity}" drawable="home_assistant" />
+	<item component="ComponentInfo{io.github.forkmaintainers.iceraven/io.github.forkmaintainers.iceraven.App}" drawable="iceraven" />
+	<item component="ComponentInfo{com.example.immich_mobile/com.example.immich_mobile.MainActivity}" drawable="immich" />
 	<item component="ComponentInfo{ml.docilealligator.infinityforreddit/ml.docilealligator.infinityforreddit.activities.MainActivity}" drawable="infinity" />
 	<item component="ComponentInfo{ml.docilealligator.infinityforreddit/ml.docilealligator.infinityforreddit.Activity.MainActivity}" drawable="infinity" />
 	<item component="ComponentInfo{com.topjohnwu.magisk/a.c}" drawable="magisk_manager" />
@@ -29,6 +39,7 @@
 	<item component="ComponentInfo{com.nintendo.znca/crc64e1ce91bfba58d316.MainActivity}" drawable="nintendo_switch_online" />
 	<item component="ComponentInfo{com.nintendo.znca/md5e14d8df872e237c80839f608ad2933ea.MainActivity}" drawable="nintendo_switch_online" />
 	<item component="ComponentInfo{com.cochlear.clientremote/com.cochlear.nucleussmart.welcome.ui.activity.SplashActivity}" drawable="nucleus_smart" />
+	<item component="ComponentInfo{com.piyush.music/com.piyush.music.activities.main.MainActivity}" drawable="oto_music" />
 	<item component="ComponentInfo{com.privacy.pay/com.privacy.pay.MainActivity}" drawable="pay_with_privacy" />
 	<item component="ComponentInfo{com.emn8.mobilem8.nativeapp.popeyes/rbi.android.app.MainActivity}" drawable="popeyes" />
 	<item component="ComponentInfo{com.aaronjwood.portauthority.donate/com.aaronjwood.portauthority.activity.MainActivity}" drawable="port_authority" />
@@ -42,4 +53,5 @@
 	<item component="ComponentInfo{com.usbank.mobilebanking/com.usbank.mobilebanking.USBank}" drawable="us_bank" />
 	<item component="ComponentInfo{de.j4velin.wallpaperChanger/de.j4velin.wallpaperChanger.settings.Settings}" drawable="wallpaper_changer" />
 	<item component="ComponentInfo{com.wireguard.android/com.wireguard.android.activity.MainActivity}" drawable="wire__guard" />
+	<item component="ComponentInfo{com.vanced.android.youtube/com.google.android.youtube.app.honeycomb.Shell}" drawable="you__tube_vanced" />
 </resources>

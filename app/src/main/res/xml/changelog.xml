@@ -1,5 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+	<version title="v0.1.1" />
+	<item text="Added: Anagramming, Arcticons (light &amp; dark), Aurora [Droid, Services, Store], Backdrops, Brave, Iceraven, Immich, Mealie, Oto Music, YouTube Vanced." />
+	<item text="Inverted App Manager's BG/FG colors." />
+	<item text="Made sheep wool in icon a little bit whiter." />
+	<item text="Made Mastodon icon usable (even if it isn't mapped to anything)." />
+	<item text="Fixed Port Authority icon (hopefully for good this time)." />
+	<item text="Shortened ampersand leg in Simply Plural." />
 	<version title="v0.1.0" />
 	<item text="Added the MIT license to the app." />
 	<item text="Added some new icons: Aptoide, Bandcamp, Delta Icons, Mastodon, PIA VPN, and Simply Plural." />
