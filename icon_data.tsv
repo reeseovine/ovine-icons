@@ -13,6 +13,7 @@ aurora_services	com.aurora.services	com.aurora.services.view.ui.activities.Auror
 aurora_store	com.aurora.store	com.aurora.store.view.ui.onboarding.OnboardingActivity
 backdrops	com.backdrops.wallpapers	com.backdrops.wallpapers.WelcomeActivity
 bandcamp	com.bandcamp.android	com.bandcamp.android.view.SplashActivity
+birday	com.minar.birday	com.minar.birday.activities.MainActivity
 brave	com.brave.browser	com.google.android.apps.chrome.Main
 delta_icons	website.leifs.delta	website.leifs.delta.activities.SplashActivity
 f_droid	org.fdroid.fdroid	org.fdroid.fdroid.FDroid
@@ -30,6 +31,7 @@ magisk_manager	com.topjohnwu.magisk	com.topjohnwu.magisk.MainActivity
 magisk_manager	com.topjohnwu.magisk	com.topjohnwu.magisk.NoUIActivity
 magisk_manager	com.topjohnwu.magisk	com.topjohnwu.magisk.SplashActivity
 magisk_manager	com.topjohnwu.magisk	com.topjohnwu.magisk.ui.MainActivity
+mastodon	org.joinmastodon.android	org.joinmastodon.android.MainActivity
 messenger	com.facebook.orca	com.facebook.orca.auth.StartScreenActivity
 messenger_lite	com.facebook.mlite	com.facebook.mlite.coreui.view.MainActivity
 newegg	com.newegg.app	com.newegg.app.MainActivity
